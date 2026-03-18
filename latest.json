@@ -73,15 +73,15 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-18T07:36:52.529957",
+    "last_updated": "2026-03-18T08:31:11.348166",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
   },
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "amber",
@@ -120,24 +120,14 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Taper",
-      "phase_week": 1,
-      "amber_threshold": 1,
-      "modifier_applied": "taper_tightened"
+      "phase": "Build",
+      "phase_week": 2,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "hrv",
-        "sleep"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 2 amber (hrv, sleep) >= threshold 1.",
+    "modification": null,
+    "reason": "P3 green light. 4 green, 2 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -396,11 +386,9 @@
       ]
     },
     "phase_detection": {
-      "phase": "Taper",
-      "confidence": "medium",
-      "reason_codes": [
-        "RACE_IMMINENT"
-      ],
+      "phase": "Build",
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 1.45,
@@ -417,17 +405,15 @@
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
-        "stream_agreement": false
+        "stream_agreement": null
       },
       "previous_phase": "Build",
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 2,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Taper",
-    "phase_triggers": [
-      "RACE_IMMINENT"
-    ],
+    "phase_detected": "Build",
+    "phase_triggers": [],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": 221,
@@ -449,7 +435,7 @@
     "p_max": 989,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-18T07:36:52.528787",
+    "calculation_timestamp": "2026-03-18T08:31:11.347012",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1135,7 +1121,7 @@
       "id": 94981438,
       "date": "2026-03-29",
       "name": "2026-HEROS-\u5f00\u5316\u7ad9",
-      "type": "RACE_B",
+      "type": "RACE_C",
       "sport_type": "Ride",
       "planned_tss": null,
       "duration_hours": 0.0,
@@ -1188,7 +1174,7 @@
     "next_race": {
       "name": "2026-HEROS-\u5f00\u5316\u7ad9",
       "date": "2026-03-29",
-      "category": "RACE_B",
+      "category": "RACE_C",
       "type": "Ride",
       "days_until": 11,
       "moving_time_seconds": null,
@@ -1198,7 +1184,7 @@
       {
         "name": "2026-HEROS-\u5f00\u5316\u7ad9",
         "date": "2026-03-29",
-        "category": "RACE_B",
+        "category": "RACE_C",
         "type": "Ride",
         "days_until": 11,
         "moving_time_seconds": null,
