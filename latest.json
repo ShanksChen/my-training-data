@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-19T05:11:24.785034",
+    "last_updated": "2026-03-19T06:12:54.615383",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -397,10 +397,10 @@
         },
         "stream_2": {
           "planned_tss_delta": 1.18,
-          "hard_sessions_planned": 8,
+          "hard_sessions_planned": 7,
           "race_proximity": 10,
           "next_week_load": 0.88,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
@@ -434,7 +434,7 @@
     "p_max": 989,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-03-19T05:11:24.284493",
+    "calculation_timestamp": "2026-03-19T06:12:54.614281",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1129,18 +1129,6 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8010\u529b\u9a91\u884c\uff01 7m ramp 45-75%\n\nMain Set\n- Settle In 9m 65-67%\n- Build 9m 67-70%\n- Upper Z2 9m 70-74%\n- Cruise 9m 74-70%\n\nCooldown\n- \u7cbe\u5f69\u5b8c\u6210\uff0c\u4eab\u53d7\u653e\u677e 5m ramp 65-45%\n\n[Weekly Plan - Build]"
     },
     {
-      "id": 99393342,
-      "date": "2026-03-20",
-      "name": "IntervalCoach - Tempo Intervals",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 34,
-      "duration_hours": 0.55,
-      "duration_formatted": "33m",
-      "workout_summary": null,
-      "description": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8fdb\u884c\u8282\u594f\u8dd1\uff01 5m ramp 60-80% pace\n\nMain Set\n- Tempo 1 12m 80-86% pace\n- Jog Recovery 3m 60-70% pace\n- Tempo 2 10m 82-88% pace\n\nCooldown\n- \u5e72\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e 3m ramp 70-60% pace"
-    },
-    {
       "id": 99393821,
       "date": "2026-03-20",
       "name": "IntervalCoach - Recovery Swim",
@@ -1490,12 +1478,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 30,
+    "attempted": 29,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 30
+    "bail_no_match": 29
   },
   "weekly_summary": {
     "total_training_hours": 5.55,
