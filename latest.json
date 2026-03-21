@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-21T05:28:14.653530",
+    "last_updated": "2026-03-21T06:04:20.249616",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -401,7 +401,7 @@
           "race_proximity": 8,
           "next_week_load": 0.88,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.8
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -434,7 +434,7 @@
     "p_max": 989,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-21T05:28:14.652329",
+    "calculation_timestamp": "2026-03-21T06:04:20.248475",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1146,18 +1146,6 @@
       "description": "Warmup\n- ShanksChen, \u6062\u590d\u6027\u6e38\u6cf3\uff0c\u51c6\u5907\u597d\u4e86\u5417\uff1f 9m 65% pace\n\nMain Set\n- Easy Swim 800mtr 60% pace\n- Technique Focus 575mtr 65% pace\n\nCooldown\n- \u6e38\u5f97\u5f88\u68d2\uff0c\u597d\u597d\u653e\u677e 6m 60% pace"
     },
     {
-      "id": 99707414,
-      "date": "2026-03-28",
-      "name": "IntervalCoach - Recovery Swim",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.83,
-      "duration_formatted": "49m35s",
-      "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u5f00\u59cb\u4eca\u5929\u7684\u6062\u590d\u548c\u6280\u672f\u8bad\u7ec3\uff01 8m 65% pace\n\nMain Set\n4x\n- Easy 125mtr 60% pace\n- Drill 100mtr 65% pace\n- Rest 25mtr 55% pace\n\nRecovery\n- Easy 5 175mtr 60% pace\n- Drill 5 100mtr 65% pace\n\n\n[Weekly Plan - Race Week]"
-    },
-    {
       "id": 94981438,
       "date": "2026-03-29",
       "name": "2026-HEROS-\u5f00\u5316\u7ad9",
@@ -1375,12 +1363,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 25,
+    "attempted": 24,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 25
+    "bail_no_match": 24
   },
   "weekly_summary": {
     "total_training_hours": 6.12,
