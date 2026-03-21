@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-21T08:41:20.465797",
+    "last_updated": "2026-03-21T09:16:05.741000",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -110,7 +110,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -12.9
+        "value": -13.2
       }
     },
     "signal_summary": {
@@ -171,10 +171,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 34.91,
-      "atl": 47.8,
-      "tsb": -12.89,
-      "ramp_rate": 1.88,
+      "ctl": 34.98,
+      "atl": 48.2,
+      "tsb": -13.22,
+      "ramp_rate": 1.96,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -234,7 +234,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2916,
+      "steps": 4824,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -434,7 +434,7 @@
     "p_max": 989,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-21T08:41:20.464585",
+    "calculation_timestamp": "2026-03-21T09:16:05.739764",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1025,7 +1025,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2916,
+      "steps": 4824,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1043,11 +1043,11 @@
       "name": "IntervalCoach - Progression Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 32,
+      "planned_tss": 35,
       "duration_hours": 0.7,
       "duration_formatted": "42m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u4eca\u5929\u6709\u4e2a\u6e10\u8fdb\u8dd1\uff01 6m ramp 60-80% pace\n\nMain Set\n- Easy 11m 70% pace\n- Build 11m 80-56% pace\n- Tempo/Threshold 10m 62-67% pace\n\nCooldown\n- \u5e72\u5f97\u6f02\u4eae\uff0c\u4eab\u53d7\u653e\u677e 4m ramp 70-60% pace"
+      "description": "Warmup\n- Shanks\uff0c\u4eca\u5929\u6709\u4e2a\u6e10\u8fdb\u8dd1\uff01 6m ramp 60-80% pace\n\nMain Set\n- Easy 11m 70% pace\n- Build 11m 80% pace\n- Tempo/Threshold 10m 65% pace\n\nCooldown\n- \u5e72\u5f97\u6f02\u4eae\uff0c\u4eab\u53d7\u653e\u677e 4m ramp 60-70% pace"
     },
     {
       "id": 98143605,
