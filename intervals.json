@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T09:16:05.740718",
+  "generated_at": "2026-03-21T09:55:05.506884",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1385,6 +1385,54 @@
           "avg_hr": 134,
           "max_hr": 143,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i133661316",
+      "date": "2026-03-21",
+      "type": "Run",
+      "name": "\u5609\u5b9a\u533a - IntervalCoach - Progression Run",
+      "interval_summary": [
+        "1x 10m58s 320w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1446,
+          "avg_power": 280,
+          "max_power": 434,
+          "avg_hr": 135,
+          "max_hr": 154,
+          "avg_cadence": 81.554634,
+          "zone": 2,
+          "training_load": 24.211115,
+          "decoupling": -5.458716
+        },
+        {
+          "type": "WORK",
+          "label": "658s@320w88rpm",
+          "duration_secs": 658,
+          "avg_power": 320,
+          "max_power": 381,
+          "avg_hr": 147,
+          "max_hr": 155,
+          "avg_cadence": 87.731,
+          "zone": 3,
+          "training_load": 13.392786,
+          "decoupling": -0.023516327
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 420,
+          "avg_power": 266,
+          "max_power": 367,
+          "avg_hr": 141,
+          "max_hr": 154,
+          "avg_cadence": 80.51905,
+          "zone": 2,
+          "training_load": 6.537216,
+          "decoupling": 4.2631507
         }
       ]
     }
