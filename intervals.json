@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T03:28:27.046476",
+  "generated_at": "2026-03-26T05:24:07.840198",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1130,6 +1130,54 @@
           "avg_hr": 117,
           "max_hr": 118,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i134844863",
+      "date": "2026-03-26",
+      "type": "Run",
+      "name": "\u5b9d\u5c71\u533a - IntervalCoach - Endurance Interv",
+      "interval_summary": [
+        "1x 3m27s 287w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 84,
+          "avg_power": 274,
+          "max_power": 391,
+          "avg_hr": 78,
+          "max_hr": 131,
+          "avg_cadence": 83.2619,
+          "zone": 2,
+          "training_load": 1.1044693,
+          "decoupling": 41.060246
+        },
+        {
+          "type": "WORK",
+          "label": "207s@287w84rpm",
+          "duration_secs": 207,
+          "avg_power": 287,
+          "max_power": 324,
+          "avg_hr": 161,
+          "max_hr": 179,
+          "avg_cadence": 84.16908,
+          "zone": 3,
+          "training_load": 3.4387555,
+          "decoupling": 13.759876
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1812,
+          "avg_power": 276,
+          "max_power": 344,
+          "avg_hr": 165,
+          "max_hr": 180,
+          "avg_cadence": 86.22627,
+          "zone": 2,
+          "training_load": 27.861313,
+          "decoupling": -18.073763
         }
       ]
     }
