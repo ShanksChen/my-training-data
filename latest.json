@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-26T05:24:08.249277",
+    "last_updated": "2026-03-26T06:46:43.493975",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -438,7 +438,7 @@
     "p_max": 989,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-03-26T05:24:07.838604",
+    "calculation_timestamp": "2026-03-26T06:46:43.492793",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1152,7 +1152,7 @@
       "duration_hours": 1.3,
       "duration_formatted": "1h18m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u9a91\u884c 12m ramp 40-75% 85rpm\n\nMain Set\n- Settle In 15m 66-69% 85rpm\n- Build 15m 69-77% 95rpm\n- Upper Z2 15m 77-84% 90rpm\n- Cruise 13m 77-84% 85rpm\n\nCooldown\n- \u7cbe\u5f69\u7684\u9a91\u884c\uff0c\u653e\u677e\u4e0b\u6765 8m ramp 56-40% 80rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u9a91\u884c 12m ramp 40-75% 85rpm\n\nMain Set\n- Settle In 15m 66-69% 85rpm\n- Build 15m 69-77% 95rpm\n- Upper  15m 77-84% 90rpm\n- Cruise 13m 77-84% 85rpm\n\nCooldown\n- \u7cbe\u5f69\u7684\u9a91\u884c\uff0c\u653e\u677e\u4e0b\u6765 8m ramp 56-40% 80rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 100101438,
