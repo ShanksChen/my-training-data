@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T11:08:26.440000",
+  "generated_at": "2026-03-27T11:57:45.202818",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -953,6 +953,53 @@
           "zone": 2,
           "training_load": 27.861313,
           "decoupling": -18.073763
+        }
+      ]
+    },
+    {
+      "activity_id": "i135127870",
+      "date": "2026-03-27",
+      "type": "Swim",
+      "name": "IntervalCoach - Recovery Swim",
+      "interval_summary": [
+        "1x 400m 110bpm",
+        "1x 225m 117bpm",
+        "1x 200m 131bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "606s@110bpm18rpm",
+          "duration_secs": 606,
+          "avg_hr": 110,
+          "max_hr": 139,
+          "avg_cadence": 18.163366,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1168s@117bpm7rpm",
+          "duration_secs": 1168,
+          "avg_hr": 117,
+          "max_hr": 143,
+          "avg_cadence": 7.1789384,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "264s@131bpm19rpm",
+          "duration_secs": 264,
+          "avg_hr": 131,
+          "max_hr": 158,
+          "avg_cadence": 18.753788,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 10,
+          "avg_hr": 146,
+          "max_hr": 151,
+          "zone": 3
         }
       ]
     }
