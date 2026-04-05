@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-05T22:03:27.661804",
+    "last_updated": "2026-04-05T22:52:30.842991",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -120,7 +120,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -19.7
+        "value": -16.1
       }
     },
     "signal_summary": {
@@ -185,10 +185,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 42.26,
-      "atl": 62.0,
-      "tsb": -19.74,
-      "ramp_rate": 1.28,
+      "ctl": 41.36,
+      "atl": 57.5,
+      "tsb": -16.14,
+      "ramp_rate": 0.38,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -446,7 +446,7 @@
     "p_max": 989,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-05T22:03:27.660525",
+    "calculation_timestamp": "2026-04-05T22:52:30.841692",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -997,6 +997,18 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u4f60\u7684Fat Max\u9a91\u884c\uff01 15m ramp 45-75% 85rpm\n\nMain Set\n- Low Z2 32m 67% 85rpm\n- Settle In 32m 67-72% 85rpm\n- Cruise 31m 72-67% 88rpm\n\nCooldown\n- Shanks\uff0c\u5f88\u68d2\u7684\u9a91\u884c\uff0c\u653e\u677e\u4e00\u4e0b\u5427\u3002 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 102681331,
+      "date": "2026-04-13",
+      "name": "IntervalCoach - \u9608\u503c\u95f4\u6b47",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 105,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fdb\u5165\u9608\u503c\u8bad\u7ec3 14m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 94987006,
       "date": "2026-04-19",
       "name": "2026\u957f\u4e09\u89d2\u56fd\u9645\u94c1\u4eba\u4e09\u9879\u8d5b",
@@ -1034,12 +1046,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 5,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 4.62,
