@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-06T21:52:39.825749",
+    "last_updated": "2026-04-06T22:43:48.671439",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -391,9 +391,9 @@
           "planned_tss_delta": 1.62,
           "hard_sessions_planned": 4,
           "race_proximity": 13,
-          "next_week_load": 0.69,
+          "next_week_load": 1.13,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -426,7 +426,7 @@
     "p_max": 989,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-06T21:52:39.824591",
+    "calculation_timestamp": "2026-04-06T22:43:48.670298",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -989,6 +989,18 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fdb\u5165\u9608\u503c\u8bad\u7ec3 14m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 11m 65-75% 85rpm\n- Threshold 1 20m 95-100% 92rpm\n- Recovery 5m 55% 80rpm\n- Threshold 2 20m 95-100% 92rpm\n- Endurance 11m 65-75% 85rpm\n\nCooldown\n- \u5b8c\u6210\u5f88\u68d2\uff0c\u4eab\u53d7\u653e\u677e 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 102897633,
+      "date": "2026-04-14",
+      "name": "IntervalCoach - \u8010\u529b\u722c\u5347",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 67,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u4eca\u5929\u6709\u8010\u529b+\u63d0\u901f\u8bad\u7ec3\uff01 14m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 94987006,
       "date": "2026-04-19",
       "name": "2026\u957f\u4e09\u89d2\u56fd\u9645\u94c1\u4eba\u4e09\u9879\u8d5b",
@@ -1026,12 +1038,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 4.62,
