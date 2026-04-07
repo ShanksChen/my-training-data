@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-07T22:06:14.346999",
+    "last_updated": "2026-04-07T22:59:55.582253",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -228,7 +228,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12607,
+      "steps": 12624,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -427,7 +427,7 @@
     "p_max": 989,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-04-07T22:06:14.345775",
+    "calculation_timestamp": "2026-04-07T22:59:55.580972",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1082,7 +1082,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12607,
+      "steps": 12624,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1119,16 +1119,16 @@
       "description": "Warmup\n- ShanksChen\uff0c\u4eca\u65e5\u8010\u529b\u8dd1\uff0c\u51c6\u5907\u51fa\u53d1\uff01 5m ramp 60-80% pace\n\nMain Set\n- Settle In 9m 70% pace\n- Aerobic 9m 70-80% pace\n- Cruise 8m 80-70% pace\n\nCooldown\n- 2m 70% pace\n- \u8dd1\u5b8c\u5566\uff0c\u653e\u677e\u4eab\u53d7 2m 60% pace"
     },
     {
-      "id": 102919652,
+      "id": 103113189,
       "date": "2026-04-08",
-      "name": "IntervalCoach - Recovery Swim",
+      "name": "IntervalCoach - \u8f7b\u677e\u6e38",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": null,
-      "duration_hours": 1.12,
-      "duration_formatted": "1h7m",
+      "duration_hours": 0.78,
+      "duration_formatted": "47m",
       "workout_summary": null,
-      "description": "Warmup\n- \u4f60\u597d Shanks\uff01\u4eca\u5929\u8fdb\u884c\u6062\u590d\u8bad\u7ec3\u3002 10m 65% pace\n\nMain Set\n- Easy Swim 30m 60% pace\n- Technique Focus 20m 65% pace\n\nCooldown\n- \u8bad\u7ec3\u7ed3\u675f\uff0c\u597d\u597d\u653e\u677e\u3002 7m 60% pace"
+      "description": "Warmup\n- Shanks\uff0c\u70ed\u8eab\u5f00\u59cb\uff0c\u51c6\u5907\u6062\u590d 7m 65% pace\n\nMain Set\n- Easy Swim 21m 60% pace\n- Technique Focus 14m 65% pace\n\nCooldown\n- \u597d\u6837\u7684\uff0c\u4eab\u53d7\u653e\u677e 5m 60% pace"
     },
     {
       "id": 101654919,
