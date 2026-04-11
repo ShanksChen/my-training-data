@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T12:01:54.127021",
+  "generated_at": "2026-04-11T13:31:41.791184",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1123,6 +1123,43 @@
           "duration_secs": 9,
           "avg_hr": 145,
           "max_hr": 151,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i138902723",
+      "date": "2026-04-11",
+      "type": "Ride",
+      "name": "IntervalCoach - \u8010\u529b\u5de1\u822a",
+      "interval_summary": [
+        "1x 1h32m 104bpm",
+        "1x 1h14m 117bpm",
+        "1x 1h3m 106bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5566s@104bpm",
+          "duration_secs": 5566,
+          "avg_hr": 104,
+          "max_hr": 155,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "4490s@117bpm",
+          "duration_secs": 4490,
+          "avg_hr": 117,
+          "max_hr": 157,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "3834s@106bpm",
+          "duration_secs": 3834,
+          "avg_hr": 106,
+          "max_hr": 142,
           "zone": 1
         }
       ]
