@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-13T21:33:50.916105",
+    "last_updated": "2026-04-13T22:29:44.717337",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -405,7 +405,7 @@
           "race_proximity": 6,
           "next_week_load": 0.2,
           "plan_coverage_current_week": 1.8,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -438,7 +438,7 @@
     "p_max": 986,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-04-13T21:33:50.914921",
+    "calculation_timestamp": "2026-04-13T22:29:44.716230",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1263,6 +1263,17 @@
       "description": "Warmup\n- Shanks\uff0c\u4eca\u5929\u8fdb\u884c\u79ef\u6781\u6062\u590d 10m ramp 45-75% 85rpm\n\nMain Set\n- Easy Spin 26m 46-50% 80rpm\n- Loosen Up 25m 50% 85rpm\n\nCooldown\n- \u505a\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e 7m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
+      "id": 104228649,
+      "date": "2026-04-21",
+      "name": "IntervalCoach - \u51b2\u523a\u95f4\u6b47",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 1.06,
+      "duration_formatted": "1h3m42s",
+      "workout_summary": "10m | 3\u00d755s / 46s rec | 4\u00d755s / 46s rec | 4\u00d754s / 46s rec | 54s | 46s | 24m17s | 2m18s | 7m"
+    },
+    {
       "id": 94987427,
       "date": "2026-04-26",
       "name": "2026\u94c1\u7acb\u65b9\u5e7f\u5fb7\u94c1\u4eba\u4e09\u9879\u8d5b",
@@ -1300,9 +1311,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 9,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 10,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 9
