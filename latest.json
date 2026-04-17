@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-17T21:51:21.510354",
+    "last_updated": "2026-04-17T22:50:14.065533",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -120,7 +120,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -18.8
+        "value": -3.0
       }
     },
     "signal_summary": {
@@ -181,10 +181,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 44.49,
-      "atl": 63.29,
-      "tsb": -18.8,
-      "ramp_rate": 4.62,
+      "ctl": 41.1,
+      "atl": 44.12,
+      "tsb": -3.02,
+      "ramp_rate": 1.24,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -408,7 +408,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.46,
+          "planned_tss_delta": 2.32,
           "hard_sessions_planned": 4,
           "race_proximity": 2,
           "next_week_load": 1.05,
@@ -446,7 +446,7 @@
     "p_max": 985,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-17T21:51:21.509221",
+    "calculation_timestamp": "2026-04-17T22:50:14.064375",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1120,16 +1120,16 @@
       "description": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u957f\u8ddd\u79bb\u8010\u529b\u8dd1\uff01 2m 60% pace\n- 2m 70% pace\n- 3m 80% pace\n\nMain Set\n- Settle In 11m 70% pace\n- Aerobic 11m 70-80% pace\n- Cruise 11m 80-70% pace\n\nCooldown\n- 3m 70% pace\n- \u8dd1\u5f97\u597d\uff0c\u6162\u6162\u653e\u677e\uff01 2m 60% pace"
     },
     {
-      "id": 104003273,
+      "id": 104996859,
       "date": "2026-04-18",
-      "name": "IntervalCoach - \u8010\u529b\u722c\u5761",
+      "name": "IntervalCoach - \u8010\u529b\u9a91\u884c",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 56,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
+      "planned_tss": 47,
+      "duration_hours": 1.03,
+      "duration_formatted": "1h2m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8010\u529b\u9a91\u884c\u548c\u52a0\u901f\u5427\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 14m 65% 85rpm\n- Build 14m 67% 88rpm\n- Upper Z2 14m 70-74% 90rpm\n- Cruise 14m 74-70% 88rpm\n\nCooldown\n- \u575a\u6301\u4f4f\uff0c\u653e\u677e\u9a91\u884c\uff0c\u4f60\u505a\u5f97\u5f88\u597d\uff01 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8010\u529b\u9a91\u884c 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 12m 65% 85rpm\n- Build 12m 67% 88rpm\n- Upper Z2 12m 70-74% 90rpm\n- Cruise 11m 74-70% 88rpm\n\nCooldown\n- \u5e72\u5f97\u6f02\u4eae\uff0c\u4eab\u53d7\u653e\u677e 6m ramp 65-45% 85rpm"
     },
     {
       "id": 94987006,
