@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-24T00:11:01.986363",
+    "last_updated": "2026-04-24T03:53:04.881232",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -143,7 +143,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-16",
-    "age_days": 38,
+    "age_days": 39,
     "total_months": 6,
     "history_confidence": "medium"
   },
@@ -439,7 +439,7 @@
     "p_max": 979,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-24T00:11:01.985299",
+    "calculation_timestamp": "2026-04-24T03:53:04.880173",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1094,6 +1094,18 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "description_preview": null
+    },
+    {
+      "id": 106176923,
+      "date": "2026-05-31",
+      "name": "smart\u676fTREK100\uff5c\u5b89\u5409\u9ec4\u6d66\u6c5f\u6e90\u7ad9",
+      "type": "RACE_B",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
@@ -1143,6 +1155,15 @@
       },
       {
         "name": "2026\u7b2c\u5341\u5c4a\u5e38\u719f\u5c1a\u6e56\u94c1\u4eba\u4e09\u9879\u8d5b",
+        "date": "2026-05-31",
+        "category": "RACE_B",
+        "type": "Ride",
+        "days_until": 37,
+        "moving_time_seconds": null,
+        "distance_meters": null
+      },
+      {
+        "name": "smart\u676fTREK100\uff5c\u5b89\u5409\u9ec4\u6d66\u6c5f\u6e90\u7ad9",
         "date": "2026-05-31",
         "category": "RACE_B",
         "type": "Ride",
