@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T21:46:27.931572",
+    "last_updated": "2026-04-26T22:48:10.603006",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -431,7 +431,7 @@
     "p_max": 977,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T21:46:27.930501",
+    "calculation_timestamp": "2026-04-26T22:48:10.601976",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -862,6 +862,18 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b+\u8282\u594f\u6311\u6218\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 13m 65-75% 88rpm\n- Tempo 5m 76-82% 90rpm\n\nCooldown\n- \u5f88\u68d2\u7684\u52aa\u529b\uff0c\u4eab\u53d7\u653e\u677e\u3002 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 106694212,
+      "date": "2026-05-04",
+      "name": "IntervalCoach - \u529b\u91cf\u8010\u529b\u5de1\u822a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 65,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u4e0e\u529b\u91cf\u7684\u6311\u6218\uff01 11m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 94987612,
       "date": "2026-05-16",
       "name": "2026\u4e0a\u6d77\u6e7e\u533a\u6e38\u6cf3\u9a6c\u62c9\u677e\u7cfb\u5217\u8d5b\uff08\u590f\u5b63\u8d5b\uff09",
@@ -911,12 +923,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
+    "attempted": 8,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 1.5,
