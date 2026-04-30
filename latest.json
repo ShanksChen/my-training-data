@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-30T21:11:33.443564",
+    "last_updated": "2026-04-30T22:12:01.812171",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -409,9 +409,9 @@
           "planned_tss_delta": 3.52,
           "hard_sessions_planned": 4,
           "race_proximity": 16,
-          "next_week_load": 1.62,
+          "next_week_load": 2.13,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -444,7 +444,7 @@
     "p_max": 973,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-30T21:11:33.442522",
+    "calculation_timestamp": "2026-04-30T22:12:01.811105",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -930,6 +930,17 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u751c\u871c\u70b9\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 1m 65-75% 85rpm\n\n5x\n- Sweet Spot 9m 88-94% 90rpm\n- Recovery 2m 55% 85rpm\n\nRecovery\n- Endurance 2m 65-75% 85rpm\n\nCooldown\n- \u5e72\u5f97\u6f02\u4eae\uff0c\u4eab\u53d7\u653e\u677e 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 107502316,
+      "date": "2026-05-08",
+      "name": "IntervalCoach - \u8010\u529b\u8282\u594f\u63a8",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 78,
+      "duration_hours": 1.58,
+      "duration_formatted": "1h35m",
+      "workout_summary": "14m @140W | 4\u00d713m @164W / 5m rec | 9m @128W"
+    },
+    {
       "id": 94987612,
       "date": "2026-05-16",
       "name": "2026\u4e0a\u6d77\u6e7e\u533a\u6e38\u6cf3\u9a6c\u62c9\u677e\u7cfb\u5217\u8d5b\uff08\u590f\u5b63\u8d5b\uff09",
@@ -967,9 +978,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 8,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 4
