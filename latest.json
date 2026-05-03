@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-03T06:42:44.306188",
+    "last_updated": "2026-05-03T08:27:07.119188",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -247,7 +247,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2133,
+      "steps": 8597,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -410,10 +410,10 @@
         },
         "stream_2": {
           "planned_tss_delta": 3.74,
-          "hard_sessions_planned": 1,
+          "hard_sessions_planned": 2,
           "race_proximity": 13,
           "next_week_load": 3.16,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
@@ -447,13 +447,13 @@
     "p_max": 971,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-03T06:42:44.305070",
+    "calculation_timestamp": "2026-05-03T08:27:07.118059",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 2,
       "activities_28d": 19,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 48
@@ -836,7 +836,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2133,
+      "steps": 8597,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -859,6 +859,18 @@
       "duration_formatted": "1h35m",
       "workout_summary": "14m @140W | 4\u00d713m @164W / 5m rec | 9m @128W",
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b+\u8282\u594f\u6311\u6218\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 13m 65-75% 88rpm\n- Tempo 5m 76-82% 90rpm\n\nCooldown\n- \u5f88\u68d2\u7684\u52aa\u529b\uff0c\u4eab\u53d7\u653e\u677e\u3002 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 107827966,
+      "date": "2026-05-03",
+      "name": "IntervalCoach - \u8010\u529b\u8dd1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 39,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8fdb\u884c\u8010\u529b\u8dd1 2m 60% pace\n- 2m 70% pace\n- 3m 80% pace\n\nMain Set\n- Settle In 11m 70% pace\n- Aerobic 11m 70-80% pace\n- Cruise 11m 80-70% pace\n\nCooldown\n- 3m 70% pace\n- \u8dd1\u5f97\u5f88\u68d2\uff0c\u4eab\u53d7\u653e\u677e 2m 60% pace"
     },
     {
       "id": 106694212,
@@ -970,12 +982,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
+    "attempted": 8,
     "success": 4,
     "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 2.75,
