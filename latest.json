@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-09T01:24:07.916127",
+    "last_updated": "2026-05-09T04:52:26.559129",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -94,40 +94,40 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 43.3,
-        "delta_pct": null
+        "status": "green",
+        "value": 42.0,
+        "baseline_7d": 43.1,
+        "delta_pct": -2.6
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 54.8,
-        "delta_bpm": null
+        "status": "green",
+        "value": 57,
+        "baseline_7d": 55.1,
+        "delta_bpm": 1.9
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 5.88,
+        "quality": 3
       },
       "acwr": {
         "status": "green",
         "value": 1.13
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 0.94
       },
       "tsb": {
         "status": "green",
-        "value": -2.8
+        "value": 4.5
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 0,
+      "green": 5,
+      "amber": 1,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Base",
@@ -137,7 +137,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -181,10 +181,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 37.37,
-      "atl": 40.12,
-      "tsb": -2.75,
-      "ramp_rate": 3.37,
+      "ctl": 35.58,
+      "atl": 31.12,
+      "tsb": 4.46,
+      "ramp_rate": 1.58,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -222,12 +222,12 @@
     },
     "current_metrics": {
       "weight_kg": 73.45,
-      "resting_hr": 59,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 57,
+      "hrv": 42.0,
+      "sleep_quality": 3,
+      "sleep_hours": 5.88,
+      "sleep_formatted": "5h53m",
+      "sleep_score": 72.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -244,7 +244,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 1695,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -256,13 +256,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 43.3,
-    "rhr_baseline_7d": 54.8,
-    "hrv_baseline_28d": 48.5,
-    "rhr_baseline_28d": 52,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "recovery_index": 0.94,
+    "hrv_baseline_7d": 43.1,
+    "rhr_baseline_7d": 55.1,
+    "hrv_baseline_28d": 48.2,
+    "rhr_baseline_28d": 52.2,
+    "latest_hrv": 42.0,
+    "latest_rhr": 57,
     "acwr": 1.13,
     "acwr_interpretation": "optimal",
     "monotony": 0.8,
@@ -274,7 +274,7 @@
     "multi_sport_detected": true,
     "strain": 195.0,
     "stress_tolerance": 2.4,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 2.6,
     "tss_7d_total": 244.0,
     "tss_28d_total": 864.0,
     "zone_distribution_7d": {
@@ -406,12 +406,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.26,
+          "planned_tss_delta": 3.31,
           "hard_sessions_planned": 2,
           "race_proximity": 7,
-          "next_week_load": 0.79,
+          "next_week_load": 1.17,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -444,10 +444,10 @@
     "p_max": 968,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-09T01:24:07.914978",
+    "calculation_timestamp": "2026-05-09T04:52:26.558030",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 18,
       "planned_workouts_7d": 7,
@@ -908,13 +908,13 @@
     {
       "date": "2026-05-09",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 57,
+      "hrv_rmssd": 42.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 5.88,
+      "sleep_formatted": "5h53m",
+      "sleep_quality": 3,
+      "sleep_score": 72.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -934,7 +934,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 1695,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -947,16 +947,16 @@
   ],
   "planned_workouts": [
     {
-      "id": 107625445,
+      "id": 109006158,
       "date": "2026-05-09",
-      "name": "IntervalCoach - \u8010\u529b\u722c\u5347",
+      "name": "IntervalCoach - \u8010\u529b\u95f4\u6b47",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 68,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8010\u529b\u52a0\u63d0\u901f\u8bad\u7ec3\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper Z2 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- \u505a\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e\u65f6\u523b\uff01 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "planned_tss": 70,
+      "duration_hours": 1.27,
+      "duration_formatted": "1h16m",
+      "workout_summary": "11m @140W | 19m @164W | 4\u00d730s @224W / 30s rec | 4m @128W | 4\u00d730s @224W / 30s rec | 4m @128W | 4\u00d730s @224W / 30s rec | 18m @164W | 8m @128W",
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8010\u529b\u548cVO2max\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 19m 65-75% 88rpm\n\n4x\n- Alt 1.1 30s 96% 100rpm\n- Alt 1.2 30s 102% 100rpm\n\nRecovery\n- Recovery 1 4m 55% 85rpm\n\n4x\n- Alt 2.1 30s 96% 100rpm\n- Alt 2.2 30s 102% 100rpm\n\nRecovery\n- Recovery 2 4m 55% 85rpm\n\n4x\n- Alt 3.1 30s 96% 100rpm\n- Alt 3.2 30s 102% 100rpm\n\nRecovery\n- Cruise 18m 65-75% 88rpm\n\nCooldown\n- \u5e72\u5f97\u6f02\u4eae\uff0c\u4eab\u53d7\u653e\u677e 8m ramp 65-45% 85rpm"
     },
     {
       "id": 107774738,
@@ -993,6 +993,18 @@
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "description": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u4eca\u5929\u6709\u8010\u529b\u52a0\u8282\u594f\u51b2\u523a\u3002 11m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 1 15m 65-75% 88rpm\n- Tempo 1 5m 76-82% 90rpm\n- Endurance 2 15m 65-75% 88rpm\n- Tempo 2 5m 76-82% 90rpm\n- Endurance 3 15m 65-75% 88rpm\n\nCooldown\n- \u505a\u5f97\u597d\uff0c\u597d\u597d\u653e\u677e\uff01 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 109006149,
+      "date": "2026-05-14",
+      "name": "IntervalCoach - \u6709\u6c27\u722c\u5761",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 56,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fdb\u884c\u4e00\u6b21\u8f7b\u677e\u7684\u957f\u8ddd\u79bb\u9a91\u884c 11m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 14m 65% 85rpm\n- Build 14m 67% 88rpm\n- Upper Z2 14m 70-74% 90rpm\n- Cruise 14m 74-70% 88rpm\n\nCooldown\n- \u5e72\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Recovery]"
     },
     {
       "id": 94987612,
@@ -1032,9 +1044,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 5,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 4
@@ -1044,8 +1056,8 @@
     "total_training_formatted": "3h33m",
     "total_tss": 244,
     "activities_count": 4,
-    "avg_hrv": 43.3,
-    "avg_resting_hr": 54.8
+    "avg_hrv": 43.1,
+    "avg_resting_hr": 55.1
   },
   "race_calendar": {
     "next_race": {
