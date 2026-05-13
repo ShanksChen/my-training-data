@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-13T21:54:14.839477",
+    "last_updated": "2026-05-13T23:10:58.361197",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -409,9 +409,9 @@
           "planned_tss_delta": 1.84,
           "hard_sessions_planned": 4,
           "race_proximity": 3,
-          "next_week_load": 0.76,
+          "next_week_load": 1.17,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -444,7 +444,7 @@
     "p_max": 968,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-13T21:54:14.838322",
+    "calculation_timestamp": "2026-05-13T23:10:58.360068",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1074,6 +1074,17 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fdb\u884cFat Max\u9a91\u884c\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n- Low Z2 19m 67% 85rpm\n- Settle In 19m 67-72% 85rpm\n- Cruise 18m 72-67% 88rpm\n\nCooldown\n- \u505a\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e\u9a91\u884c\u3002 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Pre-Race Taper]"
     },
     {
+      "id": 110007938,
+      "date": "2026-05-21",
+      "name": "IntervalCoach - \u7206\u53d1\u529b\u8010\u529b",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 60,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h14m50s",
+      "workout_summary": "11m @140W | 5\u00d711m @164W / 10s rec | 8m @128W"
+    },
+    {
       "id": 94981442,
       "date": "2026-05-24",
       "name": "\u5343\u5c9b\u6e56uci",
@@ -1099,9 +1110,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 6,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 5
