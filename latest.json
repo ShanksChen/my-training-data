@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-21T21:50:06.084581",
+    "last_updated": "2026-05-21T23:07:46.310530",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -180,10 +180,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 42.76,
-      "atl": 61.86,
-      "tsb": -19.1,
-      "ramp_rate": 5.33,
+      "ctl": 41.44,
+      "atl": 54.41,
+      "tsb": -12.97,
+      "ramp_rate": 4.02,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -408,12 +408,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.49,
+          "planned_tss_delta": 1.05,
           "hard_sessions_planned": 3,
           "race_proximity": 3,
-          "next_week_load": 0.97,
+          "next_week_load": 1.42,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.8
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -446,7 +446,7 @@
     "p_max": 966,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-21T21:50:06.083444",
+    "calculation_timestamp": "2026-05-21T23:07:46.309440",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1071,16 +1071,16 @@
       "description": "Warmup\n- Shanks\uff0c\u8f7b\u677e\u5f00\u59cb\uff0c\u4e3a\u8010\u529b\u505a\u51c6\u5907 11m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 14m 65% 85rpm\n- Build 14m 67% 88rpm\n- Upper Z2 14m 70-74% 90rpm\n- Cruise 14m 74-70% 88rpm\n\nCooldown\n- \u505a\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Recovery]"
     },
     {
-      "id": 111292043,
+      "id": 111608259,
       "date": "2026-05-22",
-      "name": "IntervalCoach - \u8010\u529b\u9a91\u884c",
+      "name": "IntervalCoach - \u8f7b\u677e\u6062\u590d\u9a91\u884c",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 68,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 32,
+      "duration_hours": 1.27,
+      "duration_formatted": "1h16m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8fd9\u6b21\u8010\u529b\u8282\u594f\u9a91\u884c 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper Z2 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- \u505a\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Recovery]"
+      "description": "Warmup\n- \u4f60\u597d Shanks\uff01\u4eca\u5929\u8f7b\u677e\u6062\u590d\u9a91\u884c 11m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 29m 45-50% 85rpm\n- Loosen Up 28m 50-55% 90rpm\n\nCooldown\n- \u505a\u5f97\u597d Shanks\uff01\u4eab\u53d7\u653e\u677e 8m ramp 55-45% 85rpm"
     },
     {
       "id": 94981442,
@@ -1131,6 +1131,18 @@
       "description": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8fce\u63a5\u4eca\u5929\u7684\u8fdb\u9636\u6709\u6c27\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 19m 65% 85rpm\n- Z2 Mid 19m 69% 88rpm\n- Z2 Upper 18m 73% 90rpm\n\nCooldown\n- Shanks\uff0c\u505a\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e\uff01 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 111608225,
+      "date": "2026-05-29",
+      "name": "IntervalCoach - \u4f4e\u5f3a\u5ea6\u6709\u6c27",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5Fat Max\u9a91\u884c\uff01 14m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 106176923,
       "date": "2026-05-31",
       "name": "smart\u676fTREK100\uff5c\u5b89\u5409\u9ec4\u6d66\u6c5f\u6e90\u7ad9",
@@ -1144,12 +1156,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 8.04,
