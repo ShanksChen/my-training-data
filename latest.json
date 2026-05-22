@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-22T21:44:06.696493",
+    "last_updated": "2026-05-22T22:44:13.017407",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -394,9 +394,9 @@
           "planned_tss_delta": 0.51,
           "hard_sessions_planned": 2,
           "race_proximity": 2,
-          "next_week_load": 1.42,
+          "next_week_load": 2.16,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -429,7 +429,7 @@
     "p_max": 966,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-22T21:44:06.695368",
+    "calculation_timestamp": "2026-05-22T22:44:13.016220",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1059,6 +1059,18 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5Fat Max\u9a91\u884c\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n- Low Z2 22m 68% 85rpm\n- Settle In 22m 68% 85rpm\n- Cruise 23m 68% 88rpm\n\nCooldown\n- Shanks\uff0c\u505a\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 111773104,
+      "date": "2026-05-30",
+      "name": "IntervalCoach - \u9608\u503c\u95f4\u6b47",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 107,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u4eca\u65e5\u7684\u9608\u503c\u9a91\u884c 14m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
       "id": 106176923,
       "date": "2026-05-31",
       "name": "smart\u676fTREK100\uff5c\u5b89\u5409\u9ec4\u6d66\u6c5f\u6e90\u7ad9",
@@ -1072,12 +1084,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 6.45,
