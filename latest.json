@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-27T21:28:14.100679",
+    "last_updated": "2026-05-27T23:02:19.882360",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -237,7 +237,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7895,
+      "steps": 8175,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -401,9 +401,9 @@
           "planned_tss_delta": 1.17,
           "hard_sessions_planned": 3,
           "race_proximity": 4,
-          "next_week_load": 0.66,
+          "next_week_load": 1.24,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.4
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -436,7 +436,7 @@
     "p_max": 966,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-27T21:28:14.099413",
+    "calculation_timestamp": "2026-05-27T23:02:19.881034",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -935,7 +935,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7895,
+      "steps": 8175,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1006,15 +1006,27 @@
       "duration_formatted": "1h14m50s",
       "workout_summary": "11m @140W | 5\u00d711m @164W / 10s rec | 8m @128W",
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u548c\u51b2\u523a\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 11m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nCooldown\n- Shanks\uff0c\u7cbe\u5f69\u6536\u5c3e\uff0c\u4eab\u53d7\u653e\u677e\u3002 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 112740650,
+      "date": "2026-06-04",
+      "name": "IntervalCoach - \u722c\u5347\u722c\u5347",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 85,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u9ad8\u5f3a\u5ea6\u8bad\u7ec3\uff01 9m ramp 45-75% 85rpm\n- Primer 1 30s 113% 90rpm"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 5,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 7.91,
