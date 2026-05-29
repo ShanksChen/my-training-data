@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-29T01:27:55.901003",
+    "last_updated": "2026-05-29T05:53:59.574770",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -384,12 +384,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.05,
+          "planned_tss_delta": 1.15,
           "hard_sessions_planned": 2,
           "race_proximity": 2,
-          "next_week_load": 1.77,
+          "next_week_load": 0.79,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.8
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -422,7 +422,7 @@
     "p_max": 967,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-29T01:27:55.899763",
+    "calculation_timestamp": "2026-05-29T05:53:59.573394",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -932,16 +932,16 @@
   ],
   "planned_workouts": [
     {
-      "id": 111608225,
+      "id": 112936731,
       "date": "2026-05-29",
-      "name": "IntervalCoach - \u4f4e\u5f3a\u5ea6\u6709\u6c27",
+      "name": "IntervalCoach - \u8010\u529b\u51b2\u523a",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 66,
+      "planned_tss": 72,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5Fat Max\u9a91\u884c\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n- Low Z2 22m 68% 85rpm\n- Settle In 22m 68% 85rpm\n- Cruise 23m 68% 88rpm\n\nCooldown\n- Shanks\uff0c\u505a\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "workout_summary": "14m @140W | 6\u00d711m @164W / 10s rec | 9m @128W",
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u4e0e\u51b2\u523a\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Endurance 11m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nCooldown\n- \u5e72\u5f97\u6f02\u4eae\uff0c\u653e\u677e\u9a91\u884c\uff01 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 106176923,
@@ -956,61 +956,37 @@
       "description": ""
     },
     {
-      "id": 112090351,
+      "id": 112936933,
       "date": "2026-06-01",
-      "name": "IntervalCoach - \u8f7b\u677e\u9a91\u884c",
+      "name": "IntervalCoach - \u8f7b\u677e\u6062\u590d\u9a91\u884c",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 36,
+      "planned_tss": 30,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u6062\u590d\u548c\u6280\u672f\u8bad\u7ec3 11m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 28m 54% 85rpm\n- Loosen Up 28m 55% 90rpm\n\nCooldown\n- \u505a\u5f97\u597d\uff0c\u4eab\u53d7\u653e\u677e 8m ramp 55-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u4eca\u5929\u7684\u8f7b\u677e\u6062\u590d\u9a91\u884c\uff01 11m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 28m 46-50% 80rpm\n- Loosen Up 28m 50% 85rpm\n\nCooldown\n- \u5e72\u5f97\u597d\uff0cShanks\uff01\u4eab\u53d7\u653e\u677e\u3002 8m ramp 55-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
-      "id": 112335686,
+      "id": 112937088,
       "date": "2026-06-02",
-      "name": "IntervalCoach - \u795e\u7ecf\u808c\u8089\u8010\u529b",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 60,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h14m50s",
-      "workout_summary": "11m @140W | 5\u00d711m @164W / 10s rec | 8m @128W",
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u548c\u51b2\u523a\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 11m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nCooldown\n- Shanks\uff0c\u7cbe\u5f69\u6536\u5c3e\uff0c\u4eab\u53d7\u653e\u677e\u3002 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 112740650,
-      "date": "2026-06-04",
-      "name": "IntervalCoach - \u722c\u5347\u722c\u5347",
+      "name": "IntervalCoach - VO2max Pyramid",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 85,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u9ad8\u5f3a\u5ea6\u8bad\u7ec3\uff01 9m ramp 45-75% 85rpm\n- Primer 1 30s 113% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 30s 113% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 13m 65-75% 85rpm\n- VO2max 1min 1m 106-120% 100rpm\n- Recovery 1m 55% 80rpm\n- VO2max 2min 2m 106-120% 100rpm\n- Recovery 2m 55% 80rpm\n- VO2max 3min 3m 106-120% 100rpm\n- Recovery 3m 55% 80rpm\n- VO2max 4min 4m 106-120% 100rpm\n- Recovery 4m 55% 80rpm\n- VO2max 3min 3m 106-120% 100rpm\n- Recovery 3m 55% 80rpm\n- VO2max 2min 2m 106-120% 100rpm\n- Recovery 2m 55% 80rpm\n- VO2max 1min 1m 106-120% 100rpm\n- Endurance 12m 65-75% 85rpm\n\nCooldown\n- \u8f9b\u82e6\u4e86\uff0c\u4eab\u53d7\u653e\u677e\u3002 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 112919694,
-      "date": "2026-06-05",
-      "name": "IntervalCoach - \u8010\u529b\u8282\u594f\u7ec4\u5408",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 78,
-      "duration_hours": 1.58,
-      "duration_formatted": "1h35m",
-      "workout_summary": "14m @140W | 4\u00d713m @164W / 5m rec | 9m @128W",
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u4e0e\u8282\u594f\u6311\u6218\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 13m 65-75% 88rpm\n- Tempo 5m 76-82% 90rpm\n\nCooldown\n- \u592a\u68d2\u4e86\uff0cShanks\uff01\u4eab\u53d7\u653e\u677e\u9a91\u884c\u3002 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- 9m ramp 45-75% 85rpm\n- Primer 1 30s 113% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 30s 113% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 13m 65-75% 85rpm\n- VO2max 1min 1m 106-120% 100rpm\n- Recovery 1m 55% 80rpm\n- VO2max 2min 2m 106-120% 100rpm\n- Recovery 2m 55% 80rpm\n- VO2max 3min 3m 106-120% 100rpm\n- Recovery 3m 55% 80rpm\n- VO2max 4min 4m 106-120% 100rpm\n- Recovery 4m 55% 80rpm\n- VO2max 3min 3m 106-120% 100rpm\n- Recovery 3m 55% 80rpm\n- VO2max 2min 2m 106-120% 100rpm\n- Recovery 2m 55% 80rpm\n- VO2max 1min 1m 106-120% 100rpm\n- Endurance 12m 65-75% 85rpm\n\nCooldown\n- 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 3,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 7.62,
