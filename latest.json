@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-30T21:10:20.999805",
+    "last_updated": "2026-05-30T22:14:05.016958",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -404,9 +404,9 @@
           "planned_tss_delta": 1.63,
           "hard_sessions_planned": 2,
           "race_proximity": 1,
-          "next_week_load": 1.28,
+          "next_week_load": 2.34,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -439,7 +439,7 @@
     "p_max": 967,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-30T21:10:20.998555",
+    "calculation_timestamp": "2026-05-30T22:14:05.015737",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1050,6 +1050,18 @@
       "description": "Warmup\n- 9m ramp 45-75% 85rpm\n- Primer 1 30s 113% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 30s 113% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 13m 65-75% 85rpm\n- VO2max 1min 1m 106-120% 100rpm\n- Recovery 1m 55% 80rpm\n- VO2max 2min 2m 106-120% 100rpm\n- Recovery 2m 55% 80rpm\n- VO2max 3min 3m 106-120% 100rpm\n- Recovery 3m 55% 80rpm\n- VO2max 4min 4m 106-120% 100rpm\n- Recovery 4m 55% 80rpm\n- VO2max 3min 3m 106-120% 100rpm\n- Recovery 3m 55% 80rpm\n- VO2max 2min 2m 106-120% 100rpm\n- Recovery 2m 55% 80rpm\n- VO2max 1min 1m 106-120% 100rpm\n- Endurance 12m 65-75% 85rpm\n\nCooldown\n- 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 113203723,
+      "date": "2026-06-04",
+      "name": "IntervalCoach - \u9ad8\u5f3a\u5ea6\u95f4\u6b47",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 89,
+      "duration_hours": 1.27,
+      "duration_formatted": "1h16m15s",
+      "workout_summary": "11m @140W | 8m @164W | 13\u00d730s @283W / 15s rec | 5m @128W | 13\u00d730s @283W / 15s rec | 5m @128W | 13\u00d730s @283W / 15s rec | 10m @164W | 8m @128W",
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5R\u00f8nnestad\u6311\u6218\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 8m 65-75% 85rpm\n\n13x\n- On 30s 121% 100rpm\n- Off 15s 55% 80rpm\n\nRecovery\n- Set Recovery 5m 55% 80rpm\n\n13x\n- On 30s 121% 100rpm\n- Off 15s 55% 80rpm\n\nRecovery\n- Set Recovery 5m 55% 80rpm\n\n13x\n- On 30s 121% 100rpm\n- Off 15s 55% 80rpm\n\nRecovery\n- Endurance 10m 65-75% 85rpm\n\nCooldown\n- \u5e72\u5f97\u6f02\u4eae\uff0c\u4eab\u53d7\u653e\u677e 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
       "id": 113073503,
       "date": "2026-06-06",
       "name": "IntervalCoach - \u795e\u7ecf\u8010\u529b\u51b2\u523a",
@@ -1060,15 +1072,27 @@
       "duration_formatted": "1h30m",
       "workout_summary": "14m @140W | 6\u00d711m @164W / 10s rec | 9m @128W",
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8010\u529b\u51b2\u523a\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Endurance 11m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nCooldown\n- \u5e72\u5f97\u6f02\u4eae\uff0c\u653e\u677e\u9a91\u884c\uff01 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 113203729,
+      "date": "2026-06-07",
+      "name": "IntervalCoach - \u8f7b\u677e\u9a91\u884c",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8102\u80aa\u6700\u5927\u503c\u9a91\u884c\uff01 14m ramp 45-75% 85rpm\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 6,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 9.13,
