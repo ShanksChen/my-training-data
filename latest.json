@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-05T21:09:08.332610",
+    "last_updated": "2026-06-05T22:35:58.852950",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -391,9 +391,9 @@
           "planned_tss_delta": 4.2,
           "hard_sessions_planned": 3,
           "race_proximity": null,
-          "next_week_load": 2.18,
+          "next_week_load": 2.84,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.8
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -426,7 +426,7 @@
     "p_max": 967,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-06-05T21:09:08.331192",
+    "calculation_timestamp": "2026-06-05T22:35:58.851561",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1058,12 +1058,23 @@
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "description": "Warmup\n- Shanks, \u8f7b\u677e\u5f00\u542f\u957f\u6709\u6c27\u9a91\u884c 14m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 17m 65% 85rpm\n- Build 17m 67% 88rpm\n- Upper Z2 17m 70-74% 90rpm\n- Cruise 16m 74-70% 88rpm\n\nCooldown\n- Shanks, \u5b8c\u7f8e\u6536\u5b98\uff0c\u4eab\u53d7\u653e\u677e 9m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 114410591,
+      "date": "2026-06-13",
+      "name": "IntervalCoach - \u8010\u529b\u51b2\u523a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 96,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h10s",
+      "workout_summary": "15m @140W | 7\u00d713m @164W / 10s rec | 3m @152W | 10m @128W"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 8,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 5
