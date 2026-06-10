@@ -1,75 +1,9 @@
 {
-  "generated_at": "2026-06-09T23:00:23.590739",
+  "generated_at": "2026-06-10T01:31:57.639024",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i153506213",
-      "date": "2026-06-02",
-      "type": "Ride",
-      "name": "IntervalCoach - Polarized Endurance (Z2)",
-      "interval_summary": [
-        "1x 10m1s 100w",
-        "1x 1h11m 149w",
-        "1x 10m1s 112w",
-        "1x 4m5s 62w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "601s@100w60rpm",
-          "duration_secs": 601,
-          "avg_power": 100,
-          "max_power": 363,
-          "avg_hr": 110,
-          "max_hr": 121,
-          "avg_cadence": 59.840267,
-          "zone": 1,
-          "training_load": 4.2120805,
-          "decoupling": -22.40547
-        },
-        {
-          "type": "WORK",
-          "label": "4275s@149w70rpm",
-          "duration_secs": 4275,
-          "avg_power": 149,
-          "max_power": 749,
-          "avg_hr": 124,
-          "max_hr": 155,
-          "avg_cadence": 69.58272,
-          "zone": 2,
-          "training_load": 64.536964,
-          "decoupling": -5.3667803
-        },
-        {
-          "type": "WORK",
-          "label": "601s@112w69rpm",
-          "duration_secs": 601,
-          "avg_power": 112,
-          "max_power": 352,
-          "avg_hr": 118,
-          "max_hr": 142,
-          "avg_cadence": 68.99667,
-          "zone": 1,
-          "training_load": 6.0463142,
-          "decoupling": 24.7396
-        },
-        {
-          "type": "WORK",
-          "label": "245s@62w39rpm",
-          "duration_secs": 245,
-          "avg_power": 62,
-          "max_power": 269,
-          "avg_hr": 105,
-          "max_hr": 121,
-          "avg_cadence": 39.174274,
-          "zone": 1,
-          "training_load": 1.1542761,
-          "decoupling": 20.146439
-        }
-      ]
-    },
     {
       "activity_id": "i153905421",
       "date": "2026-06-03",
