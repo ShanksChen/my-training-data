@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-13T20:55:15.416825",
+    "last_updated": "2026-06-13T22:11:07.756831",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -390,9 +390,9 @@
           "planned_tss_delta": 4.48,
           "hard_sessions_planned": 2,
           "race_proximity": null,
-          "next_week_load": 2.54,
+          "next_week_load": 3.42,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -425,7 +425,7 @@
     "p_max": 967,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-13T20:55:15.415596",
+    "calculation_timestamp": "2026-06-13T22:11:07.755588",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1110,13 +1110,24 @@
       "duration_formatted": "2h10s",
       "workout_summary": "15m @140W | 7\u00d713m @164W / 10s rec | 3m @152W | 10m @128W",
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u4e0e\u51b2\u523a\uff01 15m ramp 45-75% 85rpm\n\nMain Set\n7x\n- Endurance 13m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nRecovery\n- Endurance 3m 60-70%\n\nCooldown\n- \u7cbe\u5f69\u8868\u73b0\uff0c\u4eab\u53d7\u653e\u677e\uff01 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 115905258,
+      "date": "2026-06-21",
+      "name": "IntervalCoach - \u9608\u503c\u91cd\u590d",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 129,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": "12m @140W | 1m @234W | 30s @128W | 1m @234W | 30s @128W | 20m @164W | 3\u00d713m @228W / 8m rec | 10m @128W"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
-    "success": 2,
+    "attempted": 8,
+    "success": 3,
     "patternA": 2,
-    "patternB": 0,
+    "patternB": 1,
     "bail_no_workout_doc": 0,
     "bail_no_match": 5
   },
