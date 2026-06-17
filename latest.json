@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-17T04:48:27.864800",
+    "last_updated": "2026-06-17T09:53:47.716110",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -244,7 +244,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 63,
+      "steps": 4229,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -376,17 +376,14 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.5,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 3,
       "completed_days": 3,
       "matched_days": 3,
       "planned_dates": [
         "2026-06-11",
         "2026-06-12",
-        "2026-06-13",
-        "2026-06-14",
-        "2026-06-15",
         "2026-06-16"
       ],
       "completed_dates": [
@@ -445,13 +442,13 @@
     "p_max": 963,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-17T04:48:27.863655",
+    "calculation_timestamp": "2026-06-17T09:53:47.714960",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 19,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 93
@@ -883,7 +880,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 63,
+      "steps": 4229,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
