@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-18T19:58:19.956776",
+    "last_updated": "2026-06-18T22:22:30.403024",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -414,9 +414,9 @@
           "planned_tss_delta": 4.63,
           "hard_sessions_planned": 4,
           "race_proximity": 87,
-          "next_week_load": 1.46,
+          "next_week_load": 1.95,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -449,7 +449,7 @@
     "p_max": 962,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-06-18T19:58:19.955602",
+    "calculation_timestamp": "2026-06-18T22:22:30.401883",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1028,12 +1028,23 @@
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "description": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u4e0e\u529b\u91cf\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 18m 65-75% 88rpm\n- Strength 1 (low cadence) 3m 82% 60rpm\n- Threshold 1 2m 95-100% 92rpm\n- Recovery 3m 55% 85rpm\n- Strength 2 (low cadence) 3m 82% 60rpm\n- Threshold 2 2m 95-100% 92rpm\n- Recovery 3m 55% 85rpm\n- Strength 3 (low cadence) 3m 82% 60rpm\n- Threshold 3 2m 95-100% 92rpm\n- Cruise 17m 65-75% 88rpm\n\nCooldown\n- \u505a\u5f97\u597d\uff0cShanks\uff01\u4eab\u53d7\u653e\u677e\u3002 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Recovery]"
+    },
+    {
+      "id": 117111479,
+      "date": "2026-06-26",
+      "name": "IntervalCoach - \u8010\u529b\u51b2\u523a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 72,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "14m @140W | 6\u00d711m @164W / 10s rec | 9m @128W"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
-    "success": 3,
-    "patternA": 1,
+    "attempted": 8,
+    "success": 4,
+    "patternA": 2,
     "patternB": 2,
     "bail_no_workout_doc": 0,
     "bail_no_match": 4
