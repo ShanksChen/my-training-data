@@ -73,14 +73,14 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-27T09:51:41.138308",
+    "last_updated": "2026-06-27T11:39:23.874261",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
   },
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "skip",
+    "recommendation": "modify",
     "priority": 1,
     "signals": {
       "hrv": {
@@ -122,8 +122,18 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P1 acute overload. TSB -42.54 < -30 with HRV -13.9% below baseline.",
+    "modification": {
+      "triggers": [
+        "hrv",
+        "sleep"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": null
+      }
+    },
+    "reason": "P1 acute overload (modify). TSB -28.08 < -25 with HRV -13.9% below baseline.",
     "alarm_refs": []
   },
   "history": {
@@ -167,10 +177,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 60.42,
-      "atl": 102.96,
-      "tsb": -42.54,
-      "ramp_rate": 9.3,
+      "ctl": 57.31,
+      "atl": 85.39,
+      "tsb": -28.08,
+      "ramp_rate": 6.19,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -230,7 +240,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6676,
+      "steps": 7042,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -362,16 +372,14 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.75,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 2,
       "completed_days": 4,
-      "matched_days": 3,
+      "matched_days": 2,
       "planned_dates": [
         "2026-06-22",
-        "2026-06-25",
-        "2026-06-26",
-        "2026-06-27"
+        "2026-06-25"
       ],
       "completed_dates": [
         "2026-06-22",
@@ -392,12 +400,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.16,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 0,
           "race_proximity": 78,
-          "next_week_load": 1.88,
-          "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.0
+          "next_week_load": 1.5,
+          "plan_coverage_current_week": 0.0,
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -430,13 +438,13 @@
     "p_max": 963,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-27T09:51:41.137092",
+    "calculation_timestamp": "2026-06-27T11:39:23.873030",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 22,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 103,
         "outdoor": 103
@@ -1022,7 +1030,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6676,
+      "steps": 7042,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1035,44 +1043,8 @@
   ],
   "planned_workouts": [
     {
-      "id": 118116835,
-      "date": "2026-06-27",
-      "name": "IntervalCoach - \u9608\u503c\u95f4\u6b47",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 132,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "13m @146W | 30s @239W | 30s @134W | 30s @239W | 30s @134W | 24m @170W | 6\u00d71m @256W / 1m rec | 5m @134W | 6\u00d71m @256W / 1m rec | 5m @134W | 6\u00d71m @256W / 1m rec | 25m @170W | 10m @134W",
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u6311\u6218\uff01 13m ramp 45-75% 85rpm\n- Primer 1 30s 98% 90rpm\n- Primer recovery 30s 55% 85rpm\n- Primer 2 30s 98% 90rpm\n- Primer recovery 30s 55% 85rpm\n\nMain Set\n- Endurance 24m 65-75% 85rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Recovery 5m 55% 80rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\nRecovery\n- Endurance 25m 65-75% 85rpm\n\nCooldown\n- 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 118116873,
-      "date": "2026-06-29",
-      "name": "IntervalCoach - \u6e10\u8fdb\u722c\u5347",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 56,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": null,
-      "description": "Warmup\n- \u55e8 Shanks\uff01\u51c6\u5907\u597d\u8fce\u63a5\u4eca\u5929\u7684\u9a91\u884c 11m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 14m 65% 85rpm\n- Build 14m 67% 88rpm\n- Upper 14m 70-74% 90rpm\n- Cruise 14m 74-70% 88rpm\n\nCooldown\n- 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Recovery]"
-    },
-    {
-      "id": 118116892,
-      "date": "2026-06-30",
-      "name": "IntervalCoach - \u722c\u5347\u5de1\u822a",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 56,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u8f7b\u677e\u9a91\u884c\u5f00\u59cb 11m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 14m 65% 85rpm\n- Build 14m 67% 88rpm\n- Upper 14m 70-74% 90rpm\n- Cruise 14m 74-70% 88rpm\n\nCooldown\n- 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Recovery]"
-    },
-    {
       "id": 118384843,
-      "date": "2026-07-02",
+      "date": "2026-06-30",
       "name": "IntervalCoach - \u8f7b\u677e\u9a91\u884c",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -1081,6 +1053,18 @@
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "description": "Warmup\n- Shanks, \u6062\u590d\u9a91\u884c\u5f00\u59cb\uff01 11m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 28m 54% 85rpm\n- Loosen Up 28m 55% 90rpm\n\nCooldown\n- 8m ramp 55-45% 85rpm\n\n[Weekly Plan - Recovery]"
+    },
+    {
+      "id": 118116892,
+      "date": "2026-07-02",
+      "name": "IntervalCoach - \u722c\u5347\u5de1\u822a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 56,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u8f7b\u677e\u9a91\u884c\u5f00\u59cb 11m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 14m 65% 85rpm\n- Build 14m 67% 88rpm\n- Upper 14m 70-74% 90rpm\n- Cruise 14m 74-70% 88rpm\n\nCooldown\n- 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Recovery]"
     },
     {
       "id": 118695114,
@@ -1108,12 +1092,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 4,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 4
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 9.36,
