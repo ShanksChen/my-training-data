@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-12T21:59:35.036783",
+    "last_updated": "2026-07-12T23:02:04.385128",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -399,7 +399,7 @@
           "planned_tss_delta": 0.47,
           "hard_sessions_planned": 1,
           "race_proximity": 63,
-          "next_week_load": 1.22,
+          "next_week_load": 1.17,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.2
         },
@@ -434,7 +434,7 @@
     "p_max": 959,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-12T21:59:35.035526",
+    "calculation_timestamp": "2026-07-12T23:02:04.384149",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1051,16 +1051,16 @@
       "description": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u4eca\u5929\u8fdb\u884c\u6062\u590d\u9a91\u884c\u3002 11m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 26m 45-50% 85rpm intensity=recovery\n- Loosen Up 26m 50-55% 90rpm intensity=recovery\n\nCooldown\n- Shanks\uff0c\u5f88\u68d2\u7684\u6062\u590d\uff01\u4eab\u53d7\u653e\u677e\u3002 7m ramp 55-45%"
     },
     {
-      "id": 119616387,
+      "id": 122379983,
       "date": "2026-07-13",
-      "name": "IntervalCoach - \u6e10\u8fdb\u6709\u6c27",
+      "name": "IntervalCoach - \u8010\u529b\u722c\u5347",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 56,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
+      "planned_tss": 35,
+      "duration_hours": 0.78,
+      "duration_formatted": "47m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u6e10\u8fdb\u6709\u6c27\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n- Low 19m 65% 85rpm\n- Mid 19m 69% 88rpm\n- Upper 18m 73% 90rpm\n\nCooldown\n- 8m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u51c6\u5907\u597d\u8010\u529b\u8bad\u7ec3 7m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 9m 65% 85rpm\n- Build 9m 67% 88rpm\n- Upper 9m 70-74% 90rpm\n- Cruise 8m 74-70% 88rpm\n\nCooldown\n- \u5e72\u5f97\u597d\uff0cShanks\uff01\u4eab\u53d7\u653e\u677e 5m ramp 65-45%"
     },
     {
       "id": 119616419,
