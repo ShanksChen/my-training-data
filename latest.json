@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-13T21:02:25.712023",
+    "last_updated": "2026-07-13T22:11:22.593262",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -120,7 +120,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -10.2
+        "value": -7.9
       }
     },
     "signal_summary": {
@@ -181,10 +181,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 56.82,
-      "atl": 67.01,
-      "tsb": -10.19,
-      "ramp_rate": 4.33,
+      "ctl": 56.33,
+      "atl": 64.21,
+      "tsb": -7.88,
+      "ramp_rate": 3.83,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -407,8 +407,8 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.33,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 0.38,
+          "hard_sessions_planned": 3,
           "race_proximity": 62,
           "next_week_load": 0.15,
           "plan_coverage_current_week": 1.0,
@@ -445,7 +445,7 @@
     "p_max": 959,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-13T21:02:25.710723",
+    "calculation_timestamp": "2026-07-13T22:11:22.591999",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1106,16 +1106,16 @@
       "description": "- 40m 46-73% HR\n\n4x\n- 15s 46-75% HR\n- 2m 46-75% HR\n\n-10m 46-73% HR"
     },
     {
-      "id": 122420330,
+      "id": 122677311,
       "date": "2026-07-14",
-      "name": "Z1\u6062\u590d",
+      "name": "IntervalCoach - \u9608\u503c\u722c\u5761",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 15,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
+      "planned_tss": 37,
+      "duration_hours": 0.53,
+      "duration_formatted": "32m",
       "workout_summary": null,
-      "description": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u722c\u5347\uff01 30m  45-65% 85rpm"
+      "description": "Warmup\n- Shanks\uff0c\u70ed\u8eab\u5f00\u59cb\uff0c\u51c6\u5907\u597d\u4f60\u7684\u8282\u594f\uff01 5m ramp 45-75% 85rpm\n\nMain Set\n- Drop 1 6m 105% 95rpm\n- Recovery 3m 55%\n- Drop 2 6m 90-95% 92rpm\n- Recovery 3m 55%\n- Drop 3 6m 76-81% 88rpm\n\nCooldown\n- Shanks\uff0c\u5b8c\u6210\u5f97\u5f88\u68d2\uff0c\u4eab\u53d7\u653e\u677e\u3002 3m ramp 65-45%"
     },
     {
       "id": 122420742,
