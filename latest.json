@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-14T21:08:04.828904",
+    "last_updated": "2026-07-14T22:13:33.297754",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -110,7 +110,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -3.2
+        "value": -1.8
       }
     },
     "signal_summary": {
@@ -120,10 +120,10 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
-      "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 2,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": {
@@ -180,10 +180,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 55.54,
-      "atl": 58.73,
-      "tsb": -3.19,
-      "ramp_rate": 1.91,
+      "ctl": 55.24,
+      "atl": 57.0,
+      "tsb": -1.76,
+      "ramp_rate": 1.6,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -393,11 +393,9 @@
       ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
-      "reason_codes": [
-        "PLAN_GAP_NEXT_WEEK"
-      ],
+      "phase": "Build",
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 1.75,
@@ -406,8 +404,8 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.36,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.42,
+          "hard_sessions_planned": 2,
           "race_proximity": 61,
           "next_week_load": 0.15,
           "plan_coverage_current_week": 1.0,
@@ -417,14 +415,12 @@
         "stream_agreement": null
       },
       "previous_phase": "Build",
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 2,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
-    "phase_triggers": [
-      "PLAN_GAP_NEXT_WEEK"
-    ],
+    "phase_detected": "Build",
+    "phase_triggers": [],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 244,
@@ -446,7 +442,7 @@
     "p_max": 959,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-14T21:08:04.827614",
+    "calculation_timestamp": "2026-07-14T22:13:33.296460",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1100,16 +1096,16 @@
       "description": "Warmup\n- 30m  45-55% 85rpm"
     },
     {
-      "id": 122805425,
+      "id": 122921323,
       "date": "2026-07-15",
-      "name": "Z1\u6062\u590d",
+      "name": "IntervalCoach - \u9608\u503c\u91cd\u590d",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 13,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
+      "planned_tss": 35,
+      "duration_hours": 0.48,
+      "duration_formatted": "29m",
       "workout_summary": null,
-      "description": "Warmup\n- 30m  45-55% 85rpm"
+      "description": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u4eca\u5929\u8fdb\u884c\u9608\u503c\u8bad\u7ec3\u3002 5m ramp 45-75% 85rpm\n\nMain Set\n- Threshold 1 8m 95-100% 92rpm\n- Recovery 5m 55%\n- Threshold 2 8m 95-100% 92rpm\n\nCooldown\n- Shanks\uff0c\u8bad\u7ec3\u6109\u5feb\uff01\u653e\u677e\u9a91\u884c\u3002 3m ramp 65-45%"
     },
     {
       "id": 122420742,
