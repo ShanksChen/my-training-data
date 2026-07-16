@@ -65,30 +65,20 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 6.21,
-      "total_training_formatted": "6h12m",
-      "total_activities": 5,
-      "total_tss": 314
+      "total_training_hours": 7.08,
+      "total_training_formatted": "7h4m",
+      "total_activities": 6,
+      "total_tss": 380
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-16T11:19:22.978880",
+    "last_updated": "2026-07-16T13:02:09.903083",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
   },
-  "alerts": [
-    {
-      "metric": "acwr",
-      "value": 0.78,
-      "severity": "warning",
-      "threshold": "0.8 / 1.3",
-      "context": "ACWR 0.78 at edge of optimal range. Monitor closely. Alarm at 0.75/1.35.",
-      "persistence_days": null,
-      "tier": 2
-    }
-  ],
+  "alerts": [],
   "readiness_decision": {
     "recommendation": "go",
     "priority": 3,
@@ -111,8 +101,8 @@
         "quality": 1
       },
       "acwr": {
-        "status": "amber",
-        "value": 0.78
+        "status": "green",
+        "value": 0.91
       },
       "ri": {
         "status": "green",
@@ -120,12 +110,12 @@
       },
       "tsb": {
         "status": "green",
-        "value": 6.3
+        "value": -0.9
       }
     },
     "signal_summary": {
-      "green": 5,
-      "amber": 1,
+      "green": 6,
+      "amber": 0,
       "red": 0,
       "unavailable": 0
     },
@@ -137,7 +127,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -150,8 +140,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 6.21,
-    "total_activities": 5,
+    "total_duration_decimal_hours": 7.08,
+    "total_activities": 6,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 2.94,
@@ -172,25 +162,25 @@
         "distance_km": 2.1
       },
       "VirtualRide": {
-        "duration_decimal_hours": 2.25,
-        "count": 1,
-        "tss": 104,
+        "duration_decimal_hours": 3.12,
+        "count": 2,
+        "tss": 170,
         "distance_km": 58.2
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 53.42,
-      "atl": 47.09,
-      "tsb": 6.33,
-      "ramp_rate": -1.81,
+      "ctl": 54.97,
+      "atl": 55.88,
+      "tsb": -0.91,
+      "ramp_rate": -0.26,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 241.1,
-      "w_prime": 20164,
-      "w_prime_kj": 20.2,
+      "eftp": 248.0,
+      "w_prime": 20684,
+      "w_prime_kj": 20.7,
       "p_max": 958,
       "vo2max": null,
       "sports": {
@@ -221,7 +211,7 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 77.2,
+      "weight_kg": 78.7,
       "resting_hr": 53,
       "hrv": 49.0,
       "sleep_quality": 1,
@@ -244,7 +234,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6821,
+      "steps": 9714,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -263,78 +253,78 @@
     "rhr_baseline_28d": 54.5,
     "latest_hrv": 49.0,
     "latest_rhr": 53,
-    "acwr": 0.78,
-    "acwr_interpretation": "undertraining",
-    "monotony": 0.96,
-    "monotony_interpretation": "normal (primary sport 0.76, total 0.96 inflated by multi-sport)",
+    "acwr": 0.91,
+    "acwr_interpretation": "optimal",
+    "monotony": 1.08,
+    "monotony_interpretation": "normal (primary sport 1.0, total 1.08 inflated by multi-sport)",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.76,
-    "primary_sport_tss_7d": 272.0,
-    "effective_monotony": 0.76,
+    "primary_sport_monotony": 1.0,
+    "primary_sport_tss_7d": 338.0,
+    "effective_monotony": 1.0,
     "multi_sport_detected": true,
-    "strain": 301.0,
-    "stress_tolerance": 3.1,
-    "load_recovery_ratio": 2.9,
-    "tss_7d_total": 314.0,
-    "tss_28d_total": 1600.0,
+    "strain": 410.0,
+    "stress_tolerance": 3.8,
+    "load_recovery_ratio": 3.5,
+    "tss_7d_total": 380.0,
+    "tss_28d_total": 1666.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.54,
-      "z2_hours": 3.35,
-      "z3_hours": 0.92,
-      "z4_plus_hours": 0.39,
-      "total_hours": 6.2,
+      "z1_hours": 1.89,
+      "z2_hours": 3.5,
+      "z3_hours": 0.94,
+      "z4_plus_hours": 0.73,
+      "total_hours": 7.07,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 14.8,
+    "grey_zone_percentage": 13.3,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 6.3,
+    "quality_intensity_percentage": 10.4,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.79,
+    "polarisation_index": 0.76,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 1,
+    "hard_days_this_week": 2,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 17589,
-      "z2_seconds": 3304,
-      "z3_seconds": 1414,
-      "z1_pct": 78.8,
-      "z2_pct": 14.8,
-      "z3_pct": 6.3,
+      "z1_seconds": 19422,
+      "z2_seconds": 3384,
+      "z3_seconds": 2634,
+      "z1_pct": 76.3,
+      "z2_pct": 13.3,
+      "z3_pct": 10.4,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 14566,
-      "z2_seconds": 2946,
-      "z3_seconds": 1179,
-      "z1_pct": 77.9,
-      "z2_pct": 15.8,
-      "z3_pct": 6.3,
+      "z1_seconds": 16399,
+      "z2_seconds": 3026,
+      "z3_seconds": 2399,
+      "z1_pct": 75.1,
+      "z2_pct": 13.9,
+      "z3_pct": 11.0,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 79441,
-      "z2_seconds": 11613,
-      "z3_seconds": 11998,
-      "z1_pct": 77.1,
-      "z2_pct": 11.3,
-      "z3_pct": 11.6,
-      "polarization_index": 1.9,
+      "z1_seconds": 81274,
+      "z2_seconds": 11693,
+      "z3_seconds": 13218,
+      "z1_pct": 76.5,
+      "z2_pct": 11.0,
+      "z3_pct": 12.4,
+      "polarization_index": 1.94,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 68323,
-      "z2_seconds": 10821,
-      "z3_seconds": 11762,
-      "z1_pct": 75.2,
-      "z2_pct": 11.9,
-      "z3_pct": 12.9,
-      "polarization_index": 1.91,
+      "z1_seconds": 70156,
+      "z2_seconds": 10901,
+      "z3_seconds": 12982,
+      "z1_pct": 74.6,
+      "z2_pct": 11.6,
+      "z3_pct": 13.8,
+      "polarization_index": 1.95,
       "classification": "Pyramidal",
       "zone_basis": "mixed",
       "sport": "cycling"
@@ -370,7 +360,7 @@
         "classification_7d": "Pyramidal",
         "classification_28d": "Pyramidal",
         "pi_7d": null,
-        "pi_28d": 1.9,
+        "pi_28d": 1.94,
         "pi_delta": null,
         "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
@@ -379,7 +369,7 @@
     "consistency_index": 0.5,
     "consistency_details": {
       "planned_days": 2,
-      "completed_days": 3,
+      "completed_days": 4,
       "matched_days": 1,
       "planned_dates": [
         "2026-07-11",
@@ -388,14 +378,15 @@
       "completed_dates": [
         "2026-07-10",
         "2026-07-11",
-        "2026-07-13"
+        "2026-07-13",
+        "2026-07-16"
       ]
     },
     "phase_detection": {
       "phase": "Deload",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [
-        "PLAN_GAP_NEXT_WEEK"
+        "BUILD_HISTORY_REDUCED_LOAD_REBOUND_CONFIRMED"
       ],
       "basis": {
         "stream_1": {
@@ -408,12 +399,12 @@
           "planned_tss_delta": 0.43,
           "hard_sessions_planned": 1,
           "race_proximity": 59,
-          "next_week_load": 0.15,
+          "next_week_load": 1.21,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.2
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
       "previous_phase": "Build",
       "phase_duration_weeks": 1,
@@ -422,7 +413,7 @@
     },
     "phase_detected": "Deload",
     "phase_triggers": [
-      "PLAN_GAP_NEXT_WEEK"
+      "BUILD_HISTORY_REDUCED_LOAD_REBOUND_CONFIRMED"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -439,18 +430,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 241.1,
-    "w_prime": 20164,
-    "w_prime_kj": 20.2,
+    "eftp": 248.0,
+    "w_prime": 20684,
+    "w_prime_kj": 20.7,
     "p_max": 958,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-16T11:19:22.977666",
+    "calculation_timestamp": "2026-07-16T13:02:09.679690",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 5,
-      "activities_28d": 22,
+      "activities_7d": 6,
+      "activities_28d": 23,
       "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 122,
@@ -459,6 +450,59 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i166258835",
+      "date": "2026-07-16T18:33:33",
+      "type": "VirtualRide",
+      "name": "\u5ba4\u5185\u9a91\u884c",
+      "duration_hours": 0.87,
+      "distance_km": 0.0,
+      "tss": 66,
+      "intensity_factor": 87.29508,
+      "avg_power": 185,
+      "normalized_power": 213,
+      "avg_hr": 141,
+      "max_hr": 173,
+      "avg_cadence": 84.99553,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": 28.797638,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 579.1,
+      "calories": 655,
+      "carbs_used": 163,
+      "carbs_ingested": null,
+      "variability_index": 1.1513513,
+      "decoupling": -9.815227,
+      "efficiency_factor": 1.5106384,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 235,
+          "z2_time": 1514,
+          "z3_time": 211,
+          "z4_time": 1173,
+          "z5_time": 0
+        },
+        "power_zones": {
+          "z1_time": 1263,
+          "z2_time": 570,
+          "z3_time": 80,
+          "z4_time": 494,
+          "z5_time": 677,
+          "z6_time": 46,
+          "z7_time": 3
+        }
+      },
+      "has_intervals": true,
+      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 7/10\nTSS: 66\n\u8bad\u7ec3\u523a\u6fc0: mixed\n\u9884\u8ba1\u6062\u590d: 44h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-G97RXQ"
+    },
     {
       "id": "i166168370",
       "date": "2026-07-16T12:00:21",
@@ -939,7 +983,7 @@
     },
     {
       "date": "2026-07-16",
-      "weight_kg": null,
+      "weight_kg": 78.7,
       "resting_hr": 53,
       "hrv_rmssd": 49.0,
       "hrv_sdnn": null,
@@ -966,7 +1010,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6821,
+      "steps": 9714,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1015,6 +1059,30 @@
       "description": "Warmup\n- 5m 45-55% 85rpm\n- 5m 56-75% 85rpm\n\nMain Set\n3x\n- 5m 82-88% 85rpm\n- 2m 45-55% 88rpm\n- 8m 56-75% 90rpm\n\nCooldown\n- 10m 55-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
+      "id": 123208473,
+      "date": "2026-07-20",
+      "name": "IntervalCoach - \u8282\u594f\u722c\u5761",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 57,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "11m @146W | 4\u00d76m @170W / 6m rec | 8m @170W | 8m @134W",
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u548c\u8282\u594f\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n4x\n- High Cadence 6m 70% 100rpm\n- Low Cadence 6m 70% 70rpm\n\nRecovery\n- High Cadence 5 8m 70% 100rpm\n\nCooldown\n- 8m ramp 65-45%\n\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 123208476,
+      "date": "2026-07-21",
+      "name": "IntervalCoach - \u9608\u503c\u91cd\u590d",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 98,
+      "duration_hours": 1.47,
+      "duration_formatted": "1h28m",
+      "workout_summary": null,
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5FTP\u6311\u6218\uff01 10m ramp 45-75% 85rpm\n- Primer 1 1m 98% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 98% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 14m 65-75% 85rpm\n- Threshold 1 15m 95% 90rpm\n- Recovery 8m 55%\n- Threshold 2 15m 98-105% 95rpm\n- Endurance 14m 65-75% 85rpm\n\nCooldown\n- \u505a\u5f97\u597d\uff0cShanks\uff01\u5145\u5206\u653e\u677e\u3002 9m ramp 65-45%\n\n[Weekly Plan - Build]"
+    },
+    {
       "id": 122419579,
       "date": "2026-07-23",
       "name": "IntervalCoach - \u51b2\u523a\u95f4\u6b47",
@@ -1025,21 +1093,196 @@
       "duration_formatted": "1h15m",
       "workout_summary": "11m @146W | 6m @170W | 24\u00d715s @258W / 15s rec | 4m @134W | 24\u00d715s @258W / 15s rec | 4m @134W | 24\u00d715s @258W / 15s rec | 6m @170W | 8m @134W",
       "description": "Warmup\n- Shanks\uff0c\u4eca\u5929\u6211\u4eec\u5c06\u8fdb\u884c\u9ad8\u5f3a\u5ea6\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 6m 65-75% 85rpm\n\n24x\n- On 15s 106% 100rpm\n- Off 15s 55% 85rpm\n\nRecovery\n- Set Recovery 4m 55% 85rpm\n\n24x\n- On 15s 106% 100rpm\n- Off 15s 55% 85rpm\n\nRecovery\n- Set Recovery 4m 55% 85rpm\n\n24x\n- On 15s 106% 100rpm\n- Off 15s 55% 85rpm\n\nRecovery\n- Endurance 6m 65-75% 85rpm\n\nCooldown\n- 8m ramp 65-45%\n\n[Weekly Plan - Peak]"
+    },
+    {
+      "id": 123208516,
+      "date": "2026-07-24",
+      "name": "IntervalCoach - \u957f\u8ddd\u79bb\u6709\u6c27",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 69,
+      "duration_hours": 1.52,
+      "duration_formatted": "1h31m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u957f\u8ddd\u79bb\u6709\u6c27\u8bad\u7ec3 14m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 123208520,
+      "date": "2026-07-25",
+      "name": "IntervalCoach - \u751c\u533a\u8bad\u7ec3",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 130,
+      "duration_hours": 2.12,
+      "duration_formatted": "2h7m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u4eca\u5929\u6709\u751c\u533a\u8bad\u7ec3 12m ramp 45-75% 85rpm\n- Primer 1 1m 91% 90rpm"
+    },
+    {
+      "id": 123208527,
+      "date": "2026-07-26",
+      "name": "IntervalCoach - \u8010\u529b\u8282\u594f",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 97,
+      "duration_hours": 1.98,
+      "duration_formatted": "1h59m",
+      "workout_summary": "15m @146W | 5\u00d713m @170W / 5m rec | 4m @158W | 10m @134W"
+    },
+    {
+      "id": 123208531,
+      "date": "2026-07-27",
+      "name": "IntervalCoach - \u722c\u5347\u5de1\u822a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 56,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u8f7b\u677e\u9a91\u884c\u5f00\u59cb\uff01 11m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 123208535,
+      "date": "2026-07-28",
+      "name": "IntervalCoach - \u8010\u529b\u722c\u5347",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 56,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u8f7b\u677e\u7684\u8010\u529b\u9a91\u884c 11m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 123208538,
+      "date": "2026-07-30",
+      "name": "IntervalCoach - \u8010\u529b\u9a91\u884c",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 57,
+      "duration_hours": 1.23,
+      "duration_formatted": "1h14m",
+      "workout_summary": "11m @146W | 4\u00d710m @170W / 1m rec | 12m @170W | 7m @134W"
+    },
+    {
+      "id": 123208550,
+      "date": "2026-07-31",
+      "name": "IntervalCoach - \u8010\u529b\u722c\u5761",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 72,
+      "duration_hours": 1.52,
+      "duration_formatted": "1h31m",
+      "workout_summary": "13m @146W | 4\u00d712m @170W / 2m rec | 13m @170W | 9m @134W"
+    },
+    {
+      "id": 123208561,
+      "date": "2026-08-01",
+      "name": "IntervalCoach - \u8010\u529b\u8282\u594f",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 57,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "11m @146W | 4\u00d76m @170W / 6m rec | 8m @170W | 8m @134W"
+    },
+    {
+      "id": 123208570,
+      "date": "2026-08-02",
+      "name": "IntervalCoach - \u8f7b\u677e\u9a91\u884c",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 51,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u4f4e\u5f3a\u5ea6\u9a91\u884c 11m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 123208577,
+      "date": "2026-08-03",
+      "name": "IntervalCoach - \u8010\u529b\u722c\u5761",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 56,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u5f00\u59cb\u8010\u529b\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 123208612,
+      "date": "2026-08-04",
+      "name": "IntervalCoach - \u6e10\u8fdb\u9608\u503c",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 99,
+      "duration_hours": 1.38,
+      "duration_formatted": "1h23m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff01\u4eca\u5929\u6709\u6e10\u8fdb\u9608\u503c\u8bad\u7ec3 12m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 123208649,
+      "date": "2026-08-06",
+      "name": "IntervalCoach - \u6700\u5927\u6444\u6c27\u91cf\u95f4\u6b47",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 100,
+      "duration_hours": 1.3,
+      "duration_formatted": "1h18m",
+      "workout_summary": "8m @146W | 1m @275W | 30s @134W | 1m @275W | 30s @134W | 5m @170W | 8\u00d73m @275W / 3m rec | 6m @170W | 8m @134W"
+    },
+    {
+      "id": 123208680,
+      "date": "2026-08-07",
+      "name": "IntervalCoach - \u529b\u91cf\u8010\u529b\u7ec4\u5408",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 84,
+      "duration_hours": 1.62,
+      "duration_formatted": "1h37m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u548c\u529b\u91cf\u8bad\u7ec3\uff01 14m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 123208685,
+      "date": "2026-08-08",
+      "name": "IntervalCoach - \u722c\u5761\u5de1\u822a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 83,
+      "duration_hours": 1.83,
+      "duration_formatted": "1h50m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u957f\u8ddd\u79bb\u9a91\u884c\uff01 15m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 123208695,
+      "date": "2026-08-09",
+      "name": "IntervalCoach - \u957f\u6709\u6c27",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 79,
+      "duration_hours": 1.75,
+      "duration_formatted": "1h45m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff01\u957f\u6709\u6c27\u8bad\u7ec3\u6765\u5566\uff01 15m ramp 45-75% 85rpm\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 21,
+    "success": 8,
+    "patternA": 8,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_match": 13
   },
   "weekly_summary": {
-    "total_training_hours": 6.21,
-    "total_training_formatted": "6h12m",
-    "total_tss": 314,
-    "activities_count": 5,
+    "total_training_hours": 7.08,
+    "total_training_formatted": "7h4m",
+    "total_tss": 380,
+    "activities_count": 6,
     "avg_hrv": 46.0,
     "avg_resting_hr": 54.7
   },
