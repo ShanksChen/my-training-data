@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-18T09:45:59.454692",
+    "last_updated": "2026-07-18T11:08:23.481576",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -376,14 +376,12 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.33,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 1,
       "completed_days": 3,
       "matched_days": 1,
       "planned_dates": [
-        "2026-07-14",
-        "2026-07-17",
         "2026-07-18"
       ],
       "completed_dates": [
@@ -442,13 +440,13 @@
     "p_max": 956,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-18T09:45:59.453472",
+    "calculation_timestamp": "2026-07-18T11:08:23.480303",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 23,
-      "planned_workouts_7d": 3,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 124,
         "outdoor": 124
@@ -1255,13 +1253,24 @@
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": "14m @146W | 5\u00d710m @170W / 1m rec | 12m @170W | 9m @134W"
+    },
+    {
+      "id": 123601260,
+      "date": "2026-08-15",
+      "name": "IntervalCoach - \u9608\u503c\u91cd\u590d",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 155,
+      "duration_hours": 2.4,
+      "duration_formatted": "2h24m",
+      "workout_summary": "12m @146W | 1m @244W | 30s @134W | 1m @244W | 30s @134W | 29m @170W | 3\u00d715m @238W / 8m rec | 10m @134W"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 24,
-    "success": 11,
+    "attempted": 25,
+    "success": 12,
     "patternA": 11,
-    "patternB": 0,
+    "patternB": 1,
     "bail_no_workout_doc": 0,
     "bail_no_match": 13
   },
