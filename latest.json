@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-27T01:21:51.949834",
+    "last_updated": "2026-07-27T05:26:34.066876",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -212,13 +212,13 @@
       "sleep_hours": 5.57,
       "sleep_formatted": "5h34m",
       "sleep_score": 78.0,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 1,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -228,7 +228,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 63,
+      "steps": 709,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -360,9 +360,9 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.67,
+    "consistency_index": 0.8,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 4,
       "matched_days": 4,
       "planned_dates": [
@@ -370,7 +370,6 @@
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
-        "2026-07-26",
         "2026-07-27"
       ],
       "completed_dates": [
@@ -430,13 +429,13 @@
     "p_max": 954,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-27T01:21:51.948567",
+    "calculation_timestamp": "2026-07-27T05:26:34.065659",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 24,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 133,
         "outdoor": 133
@@ -951,13 +950,13 @@
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 1,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -967,7 +966,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 63,
+      "steps": 709,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1257,15 +1256,27 @@
       "duration_hours": 1.65,
       "duration_formatted": "1h39m",
       "workout_summary": "15m @146W | 6\u00d79m @170W / 1m rec | 14m @170W | 10m @134W"
+    },
+    {
+      "id": 125367231,
+      "date": "2026-08-24",
+      "name": "IntervalCoach - \u6e10\u8fdb\u6709\u6c27",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 68,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u5f00\u59cb\u4eca\u5929\u7684\u6e10\u8fdb\u6709\u6c27\u8bad\u7ec3\uff01 14m ramp 45-75% 85rpm\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 24,
+    "attempted": 25,
     "success": 13,
     "patternA": 12,
     "patternB": 1,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 11
+    "bail_no_match": 12
   },
   "weekly_summary": {
     "total_training_hours": 6.3,
