@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-01T22:12:05.985324",
+    "last_updated": "2026-08-01T23:13:44.199546",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -202,9 +202,9 @@
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 246.5,
-      "w_prime": 20560,
-      "w_prime_kj": 20.6,
+      "eftp": 246.3,
+      "w_prime": 20540,
+      "w_prime_kj": 20.5,
       "p_max": 952,
       "vo2max": null,
       "sports": {
@@ -453,13 +453,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 246.5,
-    "w_prime": 20560,
-    "w_prime_kj": 20.6,
+    "eftp": 246.3,
+    "w_prime": 20540,
+    "w_prime_kj": 20.5,
     "p_max": 952,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-01T22:12:05.983916",
+    "calculation_timestamp": "2026-08-01T23:13:44.198203",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1270,15 +1270,39 @@
       "duration_hours": 1.27,
       "duration_formatted": "1h16m",
       "workout_summary": "11m @146W | 4\u00d710m @170W / 4m rec | 2m @158W | 7m @134W"
+    },
+    {
+      "id": 126626368,
+      "date": "2026-08-29",
+      "name": "IntervalCoach - 14x5 \u8010\u529b\u8e0f\u9891",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 76,
+      "duration_hours": 1.67,
+      "duration_formatted": "1h40m",
+      "workout_summary": null,
+      "description_preview": "Main Set\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u8282\u594f\u8bad\u7ec3\uff01 13m 45-75%\n14x"
+    },
+    {
+      "id": 126626388,
+      "date": "2026-08-30",
+      "name": "IntervalCoach - \u8010\u529b\u722c\u5761",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 86,
+      "duration_hours": 1.9,
+      "duration_formatted": "1h54m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u4eca\u65e5\u8010\u529b\u9a91\u884c\uff0c\u7a33\u4f4f\u8282\u594f\uff01 15m ramp 45-75% 85rpm\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 23,
+    "attempted": 25,
     "success": 17,
     "patternA": 14,
     "patternB": 3,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 7.25,
