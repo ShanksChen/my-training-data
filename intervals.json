@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:09:54.102857",
+  "generated_at": "2026-08-05T12:17:47.684504",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1860,6 +1860,170 @@
           "duration_secs": 1,
           "avg_hr": 131,
           "max_hr": 131,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i172684779",
+      "date": "2026-08-05",
+      "type": "Swim",
+      "name": "\u6cf3\u6c60\u6e38\u6cf3",
+      "interval_summary": [
+        "1x 150m 119bpm",
+        "1x 385m 118bpm",
+        "3x 48m 121bpm",
+        "1x 4m 129bpm",
+        "1x 350m 127bpm",
+        "1x 50m 101bpm",
+        "1x 50m 126bpm",
+        "1x 85m 138bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "308s@119bpm20rpm",
+          "duration_secs": 308,
+          "avg_hr": 119,
+          "max_hr": 135,
+          "avg_cadence": 20.454546,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 58,
+          "avg_hr": 110,
+          "max_hr": 130,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "419s@118bpm21rpm",
+          "duration_secs": 419,
+          "avg_hr": 118,
+          "max_hr": 143,
+          "avg_cadence": 20.930788,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 165,
+          "avg_hr": 100,
+          "max_hr": 115,
+          "avg_cadence": 2.8,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "67s@121bpm21rpm",
+          "duration_secs": 67,
+          "avg_hr": 116,
+          "max_hr": 137,
+          "avg_cadence": 21.671642,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "17s@129bpm9rpm",
+          "duration_secs": 17,
+          "avg_hr": 129,
+          "max_hr": 137,
+          "avg_cadence": 9.058824,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "249s@127bpm23rpm",
+          "duration_secs": 249,
+          "avg_hr": 127,
+          "max_hr": 151,
+          "avg_cadence": 23.34538,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 40,
+          "avg_hr": 102,
+          "max_hr": 112,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "120s@101bpm",
+          "duration_secs": 120,
+          "avg_hr": 101,
+          "max_hr": 108,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 40,
+          "avg_hr": 111,
+          "max_hr": 121,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "104s@126bpm",
+          "duration_secs": 104,
+          "avg_hr": 126,
+          "max_hr": 138,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 112,
+          "avg_hr": 105,
+          "max_hr": 132,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "128s@138bpm20rpm",
+          "duration_secs": 128,
+          "avg_hr": 138,
+          "max_hr": 155,
+          "avg_cadence": 20.046875,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 95,
+          "avg_hr": 114,
+          "max_hr": 156,
+          "avg_cadence": 5.326316,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "67s@121bpm21rpm",
+          "duration_secs": 70,
+          "avg_hr": 118,
+          "max_hr": 130,
+          "avg_cadence": 20.7,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 33,
+          "avg_hr": 125,
+          "max_hr": 137,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "67s@121bpm21rpm",
+          "duration_secs": 64,
+          "avg_hr": 129,
+          "max_hr": 136,
+          "avg_cadence": 20.34375,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 10,
+          "avg_hr": 134,
+          "max_hr": 135,
           "zone": 1
         }
       ]
