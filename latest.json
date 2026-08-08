@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-08T13:51:34.419937",
+    "last_updated": "2026-08-08T14:36:28.326372",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -431,7 +431,7 @@
     "p_max": 951,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 53.0,
-    "calculation_timestamp": "2026-08-08T13:51:34.257047",
+    "calculation_timestamp": "2026-08-08T14:36:28.324912",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1432,6 +1432,17 @@
       "workout_summary": "12m @146W | 5\u00d711m @170W / 10s rec | 2m @158W | 8m @134W"
     },
     {
+      "id": 127929228,
+      "date": "2026-09-05",
+      "name": "IntervalCoach - 6x8 \u8010\u529b\u722c\u5347",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 1.44,
+      "duration_formatted": "1h26m6s",
+      "workout_summary": "13m @146W | 6\u00d78m @170W / 51s rec | 12m @170W | 8m @134W"
+    },
+    {
       "id": 94989379,
       "date": "2026-09-13",
       "name": "2026 HEROS \u5e86\u5143\u7ad9",
@@ -1445,9 +1456,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 22,
-    "success": 15,
-    "patternA": 12,
+    "attempted": 23,
+    "success": 16,
+    "patternA": 13,
     "patternB": 3,
     "bail_no_workout_doc": 0,
     "bail_no_match": 7
