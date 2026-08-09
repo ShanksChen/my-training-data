@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-09T21:51:45.776154",
+    "last_updated": "2026-08-09T22:36:38.361021",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -407,7 +407,7 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 35,
-          "next_week_load": 1.06,
+          "next_week_load": 0.95,
           "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.2
         },
@@ -442,7 +442,7 @@
     "p_max": 951,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-09T21:51:45.774748",
+    "calculation_timestamp": "2026-08-09T22:36:38.359566",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1241,16 +1241,16 @@
   ],
   "planned_workouts": [
     {
-      "id": 128196386,
+      "id": 128263344,
       "date": "2026-08-10",
-      "name": "IntervalCoach - 6x11 \u8010\u529b\u51b2\u523a",
+      "name": "IntervalCoach - \u6062\u590d\u9a91\u884c",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 72,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": "14m @146W | 6\u00d711m @170W / 10s rec | 9m @134W",
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u548c\u51b2\u523a\u8bad\u7ec3\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Endurance 11m 65-75% 88rpm\n- Sprint 10s 150% 110rpm\n\nCooldown\n- 9m ramp 65-45%\n\n[Weekly Plan - Peak]"
+      "planned_tss": 24,
+      "duration_hours": 0.95,
+      "duration_formatted": "57m",
+      "workout_summary": null,
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u5f00\u59cb\u4eca\u5929\u7684\u6062\u590d\u9a91\u884c 9m ramp 45-55% 85rpm\n\nMain Set\n- Easy Spin 21m 45-50% 85rpm intensity=recovery\n- Loosen Up 21m 50-55% 90rpm intensity=recovery\n\nCooldown\n- 6m ramp 55-45%"
     },
     {
       "id": 128196440,
@@ -1509,11 +1509,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 22,
-    "success": 14,
-    "patternA": 11,
+    "success": 13,
+    "patternA": 10,
     "patternB": 3,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 8
+    "bail_no_match": 9
   },
   "weekly_summary": {
     "total_training_hours": 11.75,
