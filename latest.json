@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-11T06:37:28.300117",
+    "last_updated": "2026-08-11T07:57:10.174360",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -228,7 +228,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 599,
+      "steps": 4756,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -429,7 +429,7 @@
     "p_max": 951,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-11T06:37:28.298802",
+    "calculation_timestamp": "2026-08-11T07:57:10.172926",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1063,7 +1063,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 599,
+      "steps": 4756,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1081,11 +1081,11 @@
       "name": "IntervalCoach - \u9ad8\u5f3a\u5ea6\u95f4\u6b47",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 73,
+      "planned_tss": 74,
       "duration_hours": 1.4,
       "duration_formatted": "1h24m",
-      "workout_summary": "13m @146W | 9m @170W | 24\u00d715s @258W / 15s rec | 4m @134W | 24\u00d715s @258W / 15s rec | 4m @134W | 24\u00d715s @258W / 15s rec | 10m @170W | 8m @134W",
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u6311\u6218\uff01 13m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 9m 65-75% 85rpm\n\n24x\n- On 15s 106% 100rpm\n- Off 15s 55% 85rpm\n\nRecovery\n- Set Recovery 4m 55% 85rpm\n\n24x\n- On 15s 106% 100rpm\n- Off 15s 55% 85rpm\n\nRecovery\n- Set Recovery 4m 55% 85rpm\n\n24x\n- On 15s 106% 100rpm\n- Off 15s 55% 85rpm\n\nRecovery\n- Endurance 10m 65-75% 85rpm\n\nCooldown\n- 8m ramp 65-45%\n\n[Weekly Plan - Peak]"
+      "workout_summary": "2m @116W | 2m @128W | 2m @140W | 2m @152W | 2m @164W | 3m @176W | 9m @170W | 24\u00d715s @258W / 15s rec | 4m @134W | 24\u00d715s @258W / 15s rec | 4m @134W | 24\u00d715s @258W / 15s rec | 10m @170W | 2m @152W | 2m @140W | 2m @128W | 2m @116W",
+      "description": "Warmup \n-2m ramp 45-50% 85rpm\n-2m ramp 50-55% 85rpm\n-2m ramp 55-60% 85rpm\n-2m ramp 60-65% 85rpm\n-2m ramp 65-70% 85rpm\n-3m ramp 70-75% 85rpm\n\nMain Set\n- Endurance 9m 65-75% 85rpm\n\n24x\n- On 15s 106% 100rpm\n- Off 15s 55% 85rpm\n\nRecovery\n- Set Recovery 4m 55% 85rpm\n\n24x\n- On 15s 106% 100rpm\n- Off 15s 55% 85rpm\n\nRecovery\n- Set Recovery 4m 55% 85rpm\n\n24x\n- On 15s 106% 100rpm\n- Off 15s 55% 85rpm\n\nRecovery\n- Endurance 10m 65-75% 85rpm\n\nCooldown\n- 2m ramp 65-60%\n- 2m ramp 60-55%\n- 2m ramp 55-50%\n- 2m ramp 50-45%\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 128588633,
@@ -1124,7 +1124,7 @@
       "description": "Main Set\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u4e0e\u51b2\u523a\uff01 8m 45-75%\n\n5x\n- Endurance 8m 65-75%\n- Sprint 8s 150%\n\nRecovery\n- Endurance 2m 60-70%\n\nCooldown\n- 6m ramp 65-45%"
     },
     {
-      "id": 128589212,
+      "id": 128601080,
       "date": "2026-08-15",
       "name": "IntervalCoach - \u722c\u5761\u6d4b\u8bd5",
       "type": "WORKOUT",
@@ -1133,7 +1133,7 @@
       "duration_hours": 1.92,
       "duration_formatted": "1h55m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff01\u4eca\u5929\u6709\u722c\u5761\u6d4b\u8bd5\uff0c\u51c6\u5907\u597d\u4e86\u5417\uff1f 15m ramp 45-75% 85rpm\n\nMain Set\n- 1m 65% 85rpm\n- 1m 75% 85rpm\n- 1m 76% 88rpm\n- 1m 87% 90rpm\n- Sweet Spot 1m 88% 90rpm\n- SS+ 1m 94% 92rpm\n- Threshold 1m 95% 92rpm\n- FTP 1m 105% 95rpm\n- VO2max 1m 106% 95rpm\n- VO2max+ 1m 120% 100rpm\n- Anaerobic 1m 121% 100rpm\n- Easy Spin 79m 45-55% 85rpm\n\nCooldown\n- Shanks\uff01\u8f9b\u82e6\u4e86\uff0c\u4eab\u53d7\u653e\u677e\u3002 10m ramp 65-45%\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u4f60\u7684\u722c\u5761\u6d4b\u8bd5\uff01 15m ramp 45-75% 85rpm\n\nMain Set\n- 1m 65% 85rpm\n- 1m 75% 85rpm\n- 1m 76% 88rpm\n- 1m 87% 90rpm\n- Sweet Spot 1m 88% 90rpm\n- SS+ 1m 94% 92rpm\n- Threshold 1m 95% 92rpm\n- FTP 1m 105% 95rpm\n- VO2max 1m 106% 95rpm\n- VO2max+ 1m 120% 100rpm\n- Anaerobic 1m 121% 100rpm\n- Easy Spin 79m 45-55% 85rpm\n\nCooldown\n- \u592a\u68d2\u4e86 Shanks\uff0c\u4eab\u53d7\u653e\u677e\u9a91\u884c\uff01 10m ramp 65-45%\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 128588661,
