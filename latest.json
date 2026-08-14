@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-14T07:44:10.313846",
+    "last_updated": "2026-08-14T08:50:08.165008",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -247,7 +247,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3494,
+      "steps": 1,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -410,11 +410,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.09,
+          "planned_tss_delta": 1.58,
           "hard_sessions_planned": 3,
           "race_proximity": 30,
           "next_week_load": 1.02,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -448,7 +448,7 @@
     "p_max": 948,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-14T07:44:10.312139",
+    "calculation_timestamp": "2026-08-14T08:50:08.163323",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -985,7 +985,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3494,
+      "steps": 1,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1010,7 +1010,19 @@
       "description": "Main Set\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u4e0e\u51b2\u523a\uff01 8m 45-75%\n\n5x\n- Endurance 8m 65-75%\n- Sprint 8s 150%\n\nRecovery\n- Endurance 2m 60-70%\n\nCooldown\n- 6m ramp 65-45%"
     },
     {
-      "id": 129122247,
+      "id": 129166967,
+      "date": "2026-08-15",
+      "name": "\u722c\u5761\u6d4b\u8bd5",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 89,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "Main Set\n- Shanks\uff01\u4eca\u5929\u662f\u4e2a\u722c\u5347\u6d4b\u8bd5\u65e5 \n- 2m 45-50%\n- 2m 50-55%\n- 2m 60-65%\n- 2m 65-70%\n- 2m 70-75%\n- 10s 110%\n- 50s 55%\n- 10s 110%\n-  50s 55%\n- Step 52% 36s 52%\n- Step 58% 36s 58%\n- Step 64% 36s 64%\n- Step 70% 36s 70%\n- Step 76% 36s 76%\n- Step 82% 36s 82%\n- Step 88% 36s 88%\n- Step 94% 36s 94%\n- Step 100% 36s 100%\n- Step 106% 36s 106%\n- Step 112% 36s 112%\n- Step 118% 36s 118%\n- Step 124% 36s 124%\n- Step 130% 36s 130%\n- Step 136% 36s 136%\n- Step 142% 36s 142%\n- Step 148% 36s 148%\n- Step 154% 36s 154%\n- Step 160% 36s 160%\n- Step 166% 36s 166%\n- Step 172% 36s 172%\n- Step 178% 36s 178%\n- Step 184% 36s 184%\n- Step 190% 36s 190%\n- Step 196% 36s 196%\n- Easy Spin 6m 45-55%\n- Endurance 4m 60-70%\n\nCooldown\n- 2m ramp 65-60%\n- 2m ramp 60-55%\n- 2m ramp 55-50%\n- 2m ramp 50-45%"
+    },
+    {
+      "id": 129166904,
       "date": "2026-08-15",
       "name": "IntervalCoach - \u722c\u5761\u6d4b\u8bd5",
       "type": "WORKOUT",
@@ -1019,7 +1031,7 @@
       "duration_hours": 0.55,
       "duration_formatted": "33m",
       "workout_summary": null,
-      "description": "Main Set\n- Shanks\uff01\u4eca\u5929\u662f\u4e2a\u722c\u5347\u6d4b\u8bd5\u65e5 5m 45-75%\n- Step 52% 36s 52%\n- Step 58% 36s 58%\n- Step 64% 36s 64%\n- Step 70% 36s 70%\n- Step 76% 36s 76%\n- Step 82% 36s 82%\n- Step 88% 36s 88%\n- Step 94% 36s 94%\n- Step 100% 36s 100%\n- Step 106% 36s 106%\n- Step 112% 36s 112%\n- Step 118% 36s 118%\n- Step 124% 36s 124%\n- Step 130% 36s 130%\n- Step 136% 36s 136%\n- Step 142% 36s 142%\n- Step 148% 36s 148%\n- Step 154% 36s 154%\n- Step 160% 36s 160%\n- Step 166% 36s 166%\n- Step 172% 36s 172%\n- Step 178% 36s 178%\n- Step 184% 36s 184%\n- Step 190% 36s 190%\n- Step 196% 36s 196%\n- Easy Spin 6m 45-55%\n- Endurance 4m 60-70%\n\nCooldown\n- 3m ramp 65-45%"
+      "description": "Main Set\n- Shanks\uff01\u4eca\u5929\u662f\u4e2a\u722c\u5761\u6d4b\u8bd5\uff01 5m 45-75%\n- Step 52% 36s 52%\n- Step 58% 36s 58%\n- Step 64% 36s 64%\n- Step 70% 36s 70%\n- Step 76% 36s 76%\n- Step 82% 36s 82%\n- Step 88% 36s 88%\n- Step 94% 36s 94%\n- Step 100% 36s 100%\n- Step 106% 36s 106%\n- Step 112% 36s 112%\n- Step 118% 36s 118%\n- Step 124% 36s 124%\n- Step 130% 36s 130%\n- Step 136% 36s 136%\n- Step 142% 36s 142%\n- Step 148% 36s 148%\n- Step 154% 36s 154%\n- Step 160% 36s 160%\n- Step 166% 36s 166%\n- Step 172% 36s 172%\n- Step 178% 36s 178%\n- Step 184% 36s 184%\n- Step 190% 36s 190%\n- Step 196% 36s 196%\n- Easy Spin 6m 45-55%\n- Endurance 4m 60-70%\n\nCooldown\n- 3m ramp 65-45%"
     },
     {
       "id": 128588661,
@@ -1327,12 +1339,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 27,
+    "attempted": 28,
     "success": 12,
     "patternA": 11,
     "patternB": 1,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 15
+    "bail_no_match": 16
   },
   "weekly_summary": {
     "total_training_hours": 6.25,
