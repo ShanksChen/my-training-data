@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-24T05:02:42.267786",
+    "last_updated": "2026-08-24T05:54:29.835656",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -451,7 +451,7 @@
     "p_max": 938,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-24T05:02:42.266747",
+    "calculation_timestamp": "2026-08-24T05:54:29.834407",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1167,7 +1167,7 @@
       "type": "Ride",
       "days_until": 20,
       "moving_time_seconds": null,
-      "distance_meters": null
+      "distance_meters": 128000.0
     },
     "all_races": [
       {
@@ -1177,7 +1177,16 @@
         "type": "Ride",
         "days_until": 20,
         "moving_time_seconds": null,
-        "distance_meters": null
+        "distance_meters": 128000.0
+      },
+      {
+        "name": "\u5d14\u514b100\u5d07\u660e",
+        "date": "2026-10-11",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 48,
+        "moving_time_seconds": null,
+        "distance_meters": 98000.0
       },
       {
         "name": "2026 HEROS \u9ec4\u5ca9\u7ad9",
@@ -1195,7 +1204,7 @@
         "type": "Ride",
         "days_until": 76,
         "moving_time_seconds": null,
-        "distance_meters": null
+        "distance_meters": 138000.0
       }
     ],
     "taper_alert": {
