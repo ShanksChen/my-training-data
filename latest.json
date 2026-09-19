@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-19T05:56:06.128775",
+    "last_updated": "2026-09-19T10:46:05.572760",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -258,7 +258,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1336,
+      "steps": 6504,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -457,7 +457,7 @@
     "p_max": 921,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-19T05:56:06.127491",
+    "calculation_timestamp": "2026-09-19T10:46:05.571571",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -936,7 +936,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1336,
+      "steps": 6504,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1295,6 +1295,30 @@
       "description_preview": "Warmup\n- \u4f60\u597d Shanks\uff01\u51c6\u5907\u597d\u5f00\u59cb\u4eca\u5929\u7684\u8bad\u7ec3 200mtr 2:38/100m Pace\nMain Set"
     },
     {
+      "id": 137184610,
+      "date": "2026-10-17",
+      "name": "IntervalCoach - \u8010\u529b\u722c\u5761 \uff08\u8854\u63a5\u8bad\u7ec3 1/2\uff09",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 30,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- ShanksChen, \u51c6\u5907\u597d\u8010\u529b\u8bad\u7ec3\uff01 6m ramp 45-75% 85rpm\nMain Set"
+    },
+    {
+      "id": 137184612,
+      "date": "2026-10-17",
+      "name": "IntervalCoach - \u8010\u529b\u8dd1 \uff08\u8854\u63a5\u8bad\u7ec3 2/2\uff09",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 22,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8f7b\u677e\u8dd1 3m ramp 65-87% pace\nMain Set"
+    },
+    {
       "id": 94989380,
       "date": "2026-10-18",
       "name": "2026 HEROS \u9ec4\u5ca9\u7ad9",
@@ -1308,12 +1332,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 28,
+    "attempted": 30,
     "success": 3,
     "patternA": 2,
     "patternB": 1,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 25
+    "bail_no_match": 27
   },
   "weekly_summary": {
     "total_training_hours": 6.25,
