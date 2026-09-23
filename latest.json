@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-23T20:37:57.409577",
+    "last_updated": "2026-09-23T23:12:14.953665",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -434,7 +434,7 @@
     "p_max": 917,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-23T20:37:57.408776",
+    "calculation_timestamp": "2026-09-23T23:12:14.952434",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1096,16 +1096,16 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d tempo \u8bad\u7ec3\uff01 4m 76% pace\n\nMain Set\n- Tempo Set 1 5m 90% pace\n- Rest 20s\n- Tempo Set 2 5m 89% pace\n- Rest 20s\n- Tempo Set 3 5m 91% pace\n- Rest 20s\n- Tempo Set 4 5m 90% pace\n\nCooldown\n- 3m 72% pace\n\n[Weekly Plan - Base \u00b7 type:tempo]"
     },
     {
-      "id": 136981947,
+      "id": 138390595,
       "date": "2026-09-24",
-      "name": "IntervalCoach - 3x15 \u7a33\u6001",
+      "name": "IntervalCoach - 6x11 \u51b2\u523a\u8010\u529b",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 98,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": "11m @146W | 1m @222W | 30s @134W | 1m @222W | 30s @134W | 6m @170W | 3\u00d715m @222W / 5m rec | 9m @134W",
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u7a33\u6001\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n- Primer 1 1m 91% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 91% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 6m 65-75% 85rpm\n- Sweet Spot 1 15m 88-94% 90rpm\n- Recovery 5m 55%\n- Sweet Spot 2 15m 88-94% 90rpm\n- Recovery 5m 55%\n- Sweet Spot 3 15m 88-94% 90rpm\n- Endurance 6m 65-75% 85rpm\n\nCooldown\n- 9m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:sweetSpotSteady]"
+      "planned_tss": 80,
+      "duration_hours": 1.72,
+      "duration_formatted": "1h43m",
+      "workout_summary": "15m @146W | 6\u00d711m @170W / 10s rec | 11m @170W | 10m @134W",
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8010\u529b\u4e0e\u51b2\u523a 15m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Endurance 88rpm 11m 65-75% 88rpm\n- Sprint 110rpm 10s 128% 110rpm\n\nRecovery\n- Endurance 7 88rpm 11m 65-75% 88rpm\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:enduranceWithSprints]"
     },
     {
       "id": 136981967,
@@ -1421,8 +1421,8 @@
   "workout_summary_stats": {
     "attempted": 26,
     "success": 4,
-    "patternA": 3,
-    "patternB": 1,
+    "patternA": 4,
+    "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 22
   },
