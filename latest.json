@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-24T20:43:21.515346",
+    "last_updated": "2026-09-24T23:32:43.820159",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -427,7 +427,7 @@
     "p_max": 916,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-24T20:43:21.514118",
+    "calculation_timestamp": "2026-09-24T23:32:43.818897",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1041,16 +1041,16 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8010\u529b\u4e0e\u51b2\u523a 15m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Endurance 88rpm 11m 65-75% 88rpm\n- Sprint 110rpm 10s 128% 110rpm\n\nRecovery\n- Endurance 7 88rpm 11m 65-75% 88rpm\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:enduranceWithSprints]"
     },
     {
-      "id": 136981967,
+      "id": 138602942,
       "date": "2026-09-25",
-      "name": "IntervalCoach - \u7a33\u6001\u6e38\u6cf3",
+      "name": "IntervalCoach - \u8282\u594f\u722c\u5347",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 39,
-      "duration_hours": 0.57,
-      "duration_formatted": "34m27s",
+      "planned_tss": 51,
+      "duration_hours": 0.73,
+      "duration_formatted": "44m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u7a33\u6001\u6e38\u6cf3\uff01 200mtr 2:38/100m Pace\n\nMain Set\n- 1a 100mtr 2:25/100m Pace\n- 1 150mtr 2:12/100m Pace\n- 1b 100mtr 2:25/100m Pace\n- Rest 1m\n- 2a 100mtr 2:25/100m Pace\n- 2 150mtr 2:12/100m Pace\n- 2b 100mtr 2:25/100m Pace\n- Rest 1m\n- 3a 100mtr 2:25/100m Pace\n- 3 150mtr 2:12/100m Pace\n- 3b 100mtr 2:25/100m Pace\n\nCooldown\n- 100mtr 2:47/100m Pace\n\n[Weekly Plan - Build \u00b7 type:swimSteadyState]"
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8282\u594f\u6cf3\u8fdb\uff01 7m 76% pace\n\nMain Set\n- Build 1 168s 87% pace\n- Rest 30s\n- Build 2 168s 89% pace\n- Rest 30s\n- Build 3 168s 91% pace\n- Rest 30s\n- Build 4 168s 92% pace\n- Rest 30s\n- Build 5 168s 94% pace\n- Set Rest 1m 71% pace\n- Build 1 168s 87% pace\n- Rest 30s\n- Build 2 168s 89% pace\n- Rest 30s\n- Build 3 168s 91% pace\n- Rest 30s\n- Build 4 168s 92% pace\n- Rest 30s\n- Build 5 168s 94% pace\n\nCooldown\n- 4m 72% pace\n\n[Weekly Plan - Base \u00b7 type:swimTempoProgressive]"
     },
     {
       "id": 137308245,
