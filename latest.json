@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-28T11:34:43.821415",
+    "last_updated": "2026-09-28T18:44:02.259437",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -238,7 +238,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1985,
+      "steps": 5378,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -399,12 +399,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.57,
+          "planned_tss_delta": 0.67,
           "hard_sessions_planned": 6,
           "race_proximity": 13,
-          "next_week_load": 0.31,
+          "next_week_load": 0.37,
           "plan_coverage_current_week": 1.2,
-          "plan_coverage_next_week": 1.4
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -437,7 +437,7 @@
     "p_max": 912,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-28T11:34:43.820147",
+    "calculation_timestamp": "2026-09-28T18:44:02.258634",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1026,7 +1026,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1985,
+      "steps": 5378,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1039,52 +1039,52 @@
   ],
   "planned_workouts": [
     {
-      "id": 136982127,
+      "id": 139680866,
       "date": "2026-09-29",
-      "name": "IntervalCoach - 3x6 \u77ed\u65f6\u9608\u503c",
+      "name": "IntervalCoach - \u8f7b\u677e\u95f4\u6b47",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 58,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
-      "workout_summary": "3m | 5m | 2m | 3\u00d76m / 3m rec | 6m | 2m | 3m | 2m",
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u77ed\u65f6\u9608\u503c\u8dd1\uff01 3m 63-67% pace\n- 5m 75-79% pace\n\nMain Set\n- Endurance 2m 76-80% pace\n\n3x\n- Threshold 6m 95-100% pace\n- Recovery 3m 63-67% pace\n\nMain Set\n- Threshold 4 6m 95-100% pace\n- Endurance 2m 76-80% pace\n\nCooldown\n- 3m 76-80% pace\n- 2m 63-67% pace\n\n[Weekly Plan - Build \u00b7 type:shortThreshold]"
+      "planned_tss": 37,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": "5m | 15\u00d745s / 45s rec | 45s | 2m45s | 2 \u00d7 2m",
+      "description": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8fce\u63a5\u8f7b\u677e\u7684\u95f4\u6b47\u8dd1 5m ramp 65-87% pace\n\nMain Set\n15x\n- EIM 45s 88-92% pace\n- Recovery 45s 75-79% pace\n\nMain Set\n- EIM 16 45s 88-92% pace\n- Easy Aerobic 165s 65-77% pace\n\nCooldown\n- 2m 73-77% pace\n- 2m 63-67% pace\n\n[Weekly Plan - Build \u00b7 type:eimShortIntervals]"
     },
     {
-      "id": 136982204,
+      "id": 139682604,
       "date": "2026-09-30",
-      "name": "IntervalCoach - \u8010\u529b\u6e38",
+      "name": "IntervalCoach - \u81ea\u7531\u6cf3\u6280\u672f\u5de9\u56fa",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 37,
-      "duration_hours": 0.65,
-      "duration_formatted": "39m8s",
+      "planned_tss": 23,
+      "duration_hours": 0.77,
+      "duration_formatted": "46m16s",
       "workout_summary": null,
-      "description": "Warmup\n- 200mtr 2:38/100m Pace\n\nMain Set\n- 1a 100mtr 2:25/100m Pace\n- 1 150mtr 2:12/100m Pace\n- 1b 100mtr 2:25/100m Pace\n- Rest 50s\n- 2a 100mtr 2:25/100m Pace\n- 2 150mtr 2:12/100m Pace\n- 2b 100mtr 2:25/100m Pace\n- Rest 50s\n- 3a 100mtr 2:25/100m Pace\n- 3 150mtr 2:12/100m Pace\n- 3b 100mtr 2:25/100m Pace\n- Endurance 150mtr 2:25/100m Pace\n\nCooldown\n- 150mtr 2:47/100m Pace\n\n[Weekly Plan - Build \u00b7 type:swimEndurance]"
+      "description": "Main Set\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace\n- 50mtr 4:27/100m Pace\n- 150mtr 3:38/100m Pace\n- 50mtr 4:27/100m Pace\n- 150mtr 3:38/100m Pace\n- 50mtr 4:27/100m Pace\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace\n\n[Athlete requested]"
     },
     {
-      "id": 136982233,
+      "id": 139680992,
       "date": "2026-10-01",
-      "name": "IntervalCoach - 3x8 \u9608\u503c\u51b2\u523a",
+      "name": "IntervalCoach - \u8f7b\u677e\u5de1\u822a",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 118,
+      "planned_tss": 65,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u4f60\u7684SS+\u7206\u53d1\u8bad\u7ec3 11m ramp 45-75% 85rpm\n- Primer 1 1m 110% 90rpm\n- Primer recovery 30s 55%\n- Primer 2 1m 110% 90rpm\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 3m 65-75% 85rpm\n\n3x\n- SS Block 8m 101-108% 90rpm\n- Kick 1m 110% 100rpm\n- Recovery 3m 55%\n\nMain Set\n- SS Block 4 8m 101-108% 90rpm\n- Kick 4 1m 110% 100rpm\n- Endurance 11m 65-75% 85rpm\n- Z11 Kick 4 1m 110% 100rpm\n- Recovery 3m 55%\n- Z12 Kick 4 1m 110% 100rpm\n- Recovery 3m 55%\n\nCooldown\n- 9m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:sweetSpotSurge]"
+      "description": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8fce\u63a5 Fat Max \u8bad\u7ec3\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n- Low 85rpm 22m 68% 85rpm\n- Settle In 85rpm 22m 68% 85rpm\n- Cruise 88rpm 23m 68% 88rpm\n\nCooldown\n- \u592a\u68d2\u4e86\uff0cShanks\uff01\u4eab\u53d7\u653e\u677e\u3002 9m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceFatMax]"
     },
     {
-      "id": 136982251,
+      "id": 139683895,
       "date": "2026-10-02",
-      "name": "IntervalCoach - \u6280\u672f\u8010\u529b",
+      "name": "IntervalCoach - \u8f7b\u677e\u8010\u529b\u8dd1",
       "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 38,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m19s",
+      "sport_type": "Run",
+      "planned_tss": 47,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u6280\u672f\u8010\u529b\u8bad\u7ec3 250mtr 2:38/100m Pace\n\nMain Set\n- Drill Set 1 200mtr 2:47/100m Pace\n- Build 1 150mtr 2:25/100m Pace\n- Rest 1m\n- Drill Set 2 200mtr 2:47/100m Pace\n- Build 2 150mtr 2:25/100m Pace\n- Rest 1m\n- Drill Set 3 200mtr 2:47/100m Pace\n- Build 3 150mtr 2:25/100m Pace\n\nCooldown\n- 150mtr 2:47/100m Pace\n\n[Weekly Plan - Build \u00b7 type:swimTechniqueEndurance]"
+      "description": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u4f60\u7684\u8010\u529b\u8dd1\uff01 2m 63-67% pace\n- 5m 75-79% pace\n\nMain Set\n- Settle In 11m 76-80% pace\n- Aerobic 11m 78-87% pace\n- Cruise 11m 78-87% pace\n\nCooldown\n- 3m 74-78% pace\n- 2m 63-67% pace\n\n[Athlete requested \u00b7 type:endurance]"
     },
     {
       "id": 139454888,
@@ -1111,76 +1111,62 @@
       "description": "Warmup\n- ShanksChen, \u51c6\u5907\u597d\u8010\u529b\u8dd1 2m 63-67% pace\n- 5m 75-79% pace\n\nMain Set\n- Settle In 11m 76-80% pace\n- Aerobic 11m 78-87% pace\n- Cruise 11m 78-87% pace\n\nCooldown\n- 3m 74-78% pace\n- 2m 63-67% pace\n\n[Athlete requested \u00b7 type:endurance]"
     },
     {
-      "id": 136982275,
+      "id": 139681024,
       "date": "2026-10-06",
-      "name": "IntervalCoach - 3x10 \u9608\u503c\u53cd\u5411\u8dd1",
+      "name": "IntervalCoach - \u8fdb\u9636\u8dd1",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 61,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u53cd\u5411\u8fdb\u5ea6\u8dd1\uff01 3m 63-67% pace\n- 3m 74-78% pace"
-    },
-    {
-      "id": 136982280,
-      "date": "2026-10-07",
-      "name": "IntervalCoach - \u6280\u672f\u8010\u529b\u6e38",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
       "planned_tss": 38,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m19s",
+      "duration_hours": 0.55,
+      "duration_formatted": "33m",
       "workout_summary": null,
-      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u6280\u672f\u8010\u529b\u6e38 250mtr 2:38/100m Pace\nMain Set"
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u8fdb\u884c\u8fdb\u9636\u8dd1 5m ramp 65-78% pace\nMain Set"
     },
     {
-      "id": 136982281,
-      "date": "2026-10-08",
-      "name": "IntervalCoach - 2x1 \u751c\u533a\u722c\u5761",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u751c\u871c\u70b9\u8bad\u7ec3\uff01 11m ramp 45-75% 85rpm\n- Primer 1 1m 91% 90rpm"
-    },
-    {
-      "id": 136982282,
-      "date": "2026-10-09",
-      "name": "IntervalCoach - \u8010\u529b\u6e38",
+      "id": 139682607,
+      "date": "2026-10-07",
+      "name": "IntervalCoach - \u81ea\u7531\u6cf3\u6280\u672f\u5de9\u56fa",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 37,
-      "duration_hours": 0.65,
-      "duration_formatted": "39m8s",
+      "planned_tss": 23,
+      "duration_hours": 0.77,
+      "duration_formatted": "46m16s",
       "workout_summary": null,
-      "description_preview": "Main Set\n- Shanks\uff0c\u51c6\u5907\u597d\u8010\u529b\u6e38\uff01 200mtr 2:38/100m Pace\n- 1a 100mtr 2:25/100m Pace"
+      "description_preview": "Main Set\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace"
     },
     {
-      "id": 136982289,
-      "date": "2026-10-10",
-      "name": "IntervalCoach - \u751c\u533a\u722c\u5761 \uff08\u8854\u63a5\u8bad\u7ec3 1/2\uff09",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u4f60\u7684\u751c\u533a\u8bad\u7ec3 6m ramp 45-75% 85rpm\nMain Set"
-    },
-    {
-      "id": 136982290,
-      "date": "2026-10-10",
-      "name": "IntervalCoach - \u8010\u529b\u8dd1 \uff08\u8854\u63a5\u8bad\u7ec3 2/2\uff09",
+      "id": 139681095,
+      "date": "2026-10-08",
+      "name": "IntervalCoach - \u8f7b\u677e\u95f4\u6b47",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 22,
-      "duration_hours": 0.33,
-      "duration_formatted": "20m",
+      "planned_tss": 37,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": "5m | 7\u00d71m30s / 1m15s rec | 1m30s | 5m15s | 2 \u00d7 2m"
+    },
+    {
+      "id": 139681107,
+      "date": "2026-10-09",
+      "name": "IntervalCoach - 4x15 \u8010\u529b\u8282\u594f\u7ec4\u5408",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 98,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": "15m @146W | 4\u00d715m @170W / 5m rec | 15m @170W | 10m @134W"
+    },
+    {
+      "id": 139681122,
+      "date": "2026-10-10",
+      "name": "IntervalCoach - \u8102\u80aa\u6700\u5927\u5316",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 23,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
-      "description_preview": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8010\u529b\u8dd1 3m ramp 65-87% pace\nMain Set"
+      "description_preview": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8fdb\u884c\u8102\u80aa\u6700\u5927\u5316\u8bad\u7ec3 5m ramp 65-72% pace\nMain Set"
     },
     {
       "id": 131256653,
@@ -1195,75 +1181,63 @@
       "description_preview": null
     },
     {
-      "id": 136982292,
+      "id": 139681130,
       "date": "2026-10-13",
-      "name": "IntervalCoach - 4x6 \u51b2\u523a\u8010\u529b",
+      "name": "IntervalCoach - \u8f7b\u677e\u6062\u590d\u8dd1",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 47,
-      "duration_hours": 0.73,
-      "duration_formatted": "44m",
-      "workout_summary": "2 \u00d7 2m | 3m | 4\u00d76m / 10s rec | 6m | 2m20s | 4m"
+      "planned_tss": 25,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u5f00\u59cb\u8f7b\u677e\u8dd1\uff01 5m 62-66% pace\nMain Set"
     },
     {
-      "id": 136982294,
+      "id": 139682611,
       "date": "2026-10-14",
-      "name": "IntervalCoach - \u7a33\u6001\u6709\u6c27",
+      "name": "IntervalCoach - \u81ea\u7531\u6cf3\u6280\u672f\u5de9\u56fa",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 39,
-      "duration_hours": 0.57,
-      "duration_formatted": "34m27s",
+      "planned_tss": 23,
+      "duration_hours": 0.77,
+      "duration_formatted": "46m16s",
       "workout_summary": null,
-      "description_preview": "Warmup\n- \u4f60\u597d Shanks\uff01\u51c6\u5907\u597d\u8f7b\u677e\u7545\u6e38\u3002 200mtr 2:38/100m Pace\nMain Set"
+      "description_preview": "Main Set\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace"
     },
     {
-      "id": 136982301,
+      "id": 139681174,
       "date": "2026-10-15",
-      "name": "IntervalCoach - 3x3 \u8010\u529b\u529b\u91cf\u7ec4\u5408",
+      "name": "IntervalCoach - 4x12 \u8010\u529b\u722c\u5347",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 79,
+      "planned_tss": 70,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- Shanks\uff0c\u4eca\u65e5\u8010\u529b\u4e0e\u529b\u91cf\u8bad\u7ec3\uff0c\u51c6\u5907\u597d\u4e86\u5417\uff1f 14m ramp 45-75% 85rpm\nMain Set"
+      "workout_summary": "14m @146W | 4\u00d712m @170W / 1m30s rec | 13m @170W | 9m @134W"
     },
     {
-      "id": 136982309,
+      "id": 139681183,
       "date": "2026-10-16",
-      "name": "IntervalCoach - \u6e10\u8fdb\u6709\u6c27",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 36,
-      "duration_hours": 0.56,
-      "duration_formatted": "33m47s",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- \u4f60\u597d Shanks\uff01\u51c6\u5907\u597d\u5f00\u59cb\u4eca\u5929\u7684\u8bad\u7ec3 200mtr 2:38/100m Pace\nMain Set"
-    },
-    {
-      "id": 137184610,
-      "date": "2026-10-17",
-      "name": "IntervalCoach - \u8010\u529b\u722c\u5761 \uff08\u8854\u63a5\u8bad\u7ec3 1/2\uff09",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 30,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- ShanksChen, \u51c6\u5907\u597d\u8010\u529b\u8bad\u7ec3\uff01 6m ramp 45-75% 85rpm\nMain Set"
-    },
-    {
-      "id": 137184612,
-      "date": "2026-10-17",
-      "name": "IntervalCoach - \u8010\u529b\u8dd1 \uff08\u8854\u63a5\u8bad\u7ec3 2/2\uff09",
+      "name": "IntervalCoach - \u53d8\u901f\u8dd1",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 22,
-      "duration_hours": 0.33,
-      "duration_formatted": "20m",
+      "planned_tss": 34,
+      "duration_hours": 0.48,
+      "duration_formatted": "29m",
       "workout_summary": null,
-      "description_preview": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8f7b\u677e\u8dd1 3m ramp 65-87% pace\nMain Set"
+      "description_preview": "Warmup\n- Shanks\uff0c\u8dd1\u8d77\u6765\uff01\u4eca\u5929\u5c06\u8fdb\u884c\u6cd5\u7279\u83b1\u514b\u8dd1 4m ramp 65-87% pace\nMain Set"
+    },
+    {
+      "id": 139681194,
+      "date": "2026-10-17",
+      "name": "IntervalCoach - \u8f7b\u677e\u6062\u590d\u8dd1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 18,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u8f7b\u677e\u8dd1\u5f00\u59cb 5m 56-60% pace\nMain Set"
     },
     {
       "id": 94989380,
@@ -1278,98 +1252,73 @@
       "description_preview": null
     },
     {
-      "id": 138066089,
+      "id": 139681203,
       "date": "2026-10-20",
       "name": "IntervalCoach - \u8f7b\u677e\u95f4\u6b47",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 59,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
-      "workout_summary": "2 \u00d7 3m | 2m | 25\u00d745s / 45s rec | 45s | 2m45s | 2 \u00d7 3m"
+      "planned_tss": 37,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": "5m | 7\u00d71m30s / 1m15s rec | 1m30s | 5m15s | 2 \u00d7 2m"
     },
     {
-      "id": 139070709,
+      "id": 139682612,
       "date": "2026-10-21",
-      "name": "IntervalCoach - \u6709\u6c27\u8010\u529b",
+      "name": "IntervalCoach - \u81ea\u7531\u6cf3\u6280\u672f\u5de9\u56fa",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 54,
-      "duration_hours": 0.79,
-      "duration_formatted": "47m18s",
-      "workout_summary": "6m35s | 3\u00d76m54s / 30s rec | 6m54s | 6m3s | 5m34s"
+      "planned_tss": 23,
+      "duration_hours": 0.77,
+      "duration_formatted": "46m16s",
+      "workout_summary": null,
+      "description_preview": "Main Set\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace"
     },
     {
-      "id": 139070712,
+      "id": 139681225,
       "date": "2026-10-22",
-      "name": "IntervalCoach - \u6e10\u8fdb\u9608\u503c",
+      "name": "IntervalCoach - \u71c3\u8102\u9a91\u884c",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 96,
+      "planned_tss": 65,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description_preview": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u4eca\u65e5\u662f\u6e10\u8fdb\u5f0f\u751c\u533a\u8bad\u7ec3 14m ramp 45-75% 85rpm\nMain Set"
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fdb\u5165\u8102\u80aa\u6700\u5927\u5316\u8bad\u7ec3 14m ramp 45-75% 85rpm\nMain Set"
     },
     {
-      "id": 139070715,
+      "id": 139681239,
       "date": "2026-10-23",
-      "name": "IntervalCoach - \u6280\u672f\u8010\u529b",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 54,
-      "duration_hours": 0.98,
-      "duration_formatted": "58m42s",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- \u4f60\u597d Shanks\uff01\u4eca\u5929\u6709\u6280\u672f\u8010\u529b\u8bad\u7ec3 350mtr 2:38/100m Pace\nMain Set"
-    },
-    {
-      "id": 139070726,
-      "date": "2026-10-24",
-      "name": "IntervalCoach - \u751c\u533a\u722c\u5761 \uff08\u8854\u63a5\u8bad\u7ec3 1/2\uff09",
+      "name": "IntervalCoach - 6x10 \u8010\u529b\u52a0\u901f",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u751c\u533a\u8bad\u7ec3\uff01 6m ramp 45-75% 85rpm\nMain Set"
+      "planned_tss": 81,
+      "duration_hours": 1.75,
+      "duration_formatted": "1h45m",
+      "workout_summary": "15m @146W | 6\u00d710m @170W / 1m rec | 14m @170W | 10m @134W"
     },
     {
-      "id": 139070727,
+      "id": 139681258,
       "date": "2026-10-24",
-      "name": "IntervalCoach - \u8010\u529b\u8dd1 \uff08\u8854\u63a5\u8bad\u7ec3 2/2\uff09",
+      "name": "IntervalCoach - 4x4 \u8010\u529b\u52a0\u901f\u8dd1",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 22,
-      "duration_hours": 0.33,
-      "duration_formatted": "20m",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8010\u529b\u8dd1 3m ramp 65-87% pace\nMain Set"
+      "planned_tss": 28,
+      "duration_hours": 0.43,
+      "duration_formatted": "26m",
+      "workout_summary": "4m | 4\u00d74m / 30s rec | 4m"
     },
     {
-      "id": 139070745,
+      "id": 139681294,
       "date": "2026-10-25",
-      "name": "IntervalCoach - \u751c\u533a\u722c\u5761 \uff08\u8854\u63a5\u8bad\u7ec3 1/2\uff09",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "description_preview": "Warmup\n- ShanksChen\uff0c\u4eca\u5929\u6765\u70b9\u751c\u533a\u8bad\u7ec3\uff01 6m ramp 45-75% 85rpm\nMain Set"
-    },
-    {
-      "id": 139070746,
-      "date": "2026-10-25",
-      "name": "IntervalCoach - \u8010\u529b\u8dd1 \uff08\u8854\u63a5\u8bad\u7ec3 2/2\uff09",
+      "name": "IntervalCoach - \u8fdb\u9636\u8dd1",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 22,
-      "duration_hours": 0.33,
-      "duration_formatted": "20m",
+      "planned_tss": 38,
+      "duration_hours": 0.55,
+      "duration_formatted": "33m",
       "workout_summary": null,
-      "description_preview": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u8fdb\u884c\u8010\u529b\u8dd1\uff01 3m ramp 65-87% pace\nMain Set"
+      "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fdb\u9636\u8dd1\uff01 5m ramp 65-78% pace\nMain Set"
     },
     {
       "id": 94989382,
@@ -1385,12 +1334,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 26,
-    "success": 4,
-    "patternA": 4,
+    "attempted": 22,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 22
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 4.65,
@@ -1437,6 +1386,15 @@
         "days_until": 41,
         "moving_time_seconds": null,
         "distance_meters": 138000.0
+      },
+      {
+        "name": "\u4e0a\u6d77\u9a6c\u62c9\u677e",
+        "date": "2026-12-06",
+        "category": "RACE_A",
+        "type": "Run",
+        "days_until": 69,
+        "moving_time_seconds": null,
+        "distance_meters": null
       }
     ],
     "taper_alert": {
