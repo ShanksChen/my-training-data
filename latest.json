@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-29T02:46:15.371913",
+    "last_updated": "2026-09-29T09:38:53.528931",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -247,7 +247,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1488,
+      "steps": 3728,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -446,7 +446,7 @@
     "p_max": 911,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-29T02:46:15.371007",
+    "calculation_timestamp": "2026-09-29T09:38:53.528082",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -980,7 +980,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1488,
+      "steps": 3728,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1011,10 +1011,10 @@
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 23,
-      "duration_hours": 0.77,
-      "duration_formatted": "46m16s",
-      "workout_summary": null,
-      "description": "Main Set\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace\n- 50mtr 4:27/100m Pace\n- 150mtr 3:38/100m Pace\n- 50mtr 4:27/100m Pace\n- 150mtr 3:38/100m Pace\n- 50mtr 4:27/100m Pace\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace\n\n[Athlete requested]"
+      "duration_hours": 0.83,
+      "duration_formatted": "49m50s",
+      "workout_summary": "4\u00d71m30s / 20s rec | 4\u00d72m / 30s rec | 4\u00d71m40s / 30s rec | 4\u00d730s / 20s rec | 2\u00d72m / 40s rec | 2\u00d72m10s / 45s rec | 2\u00d71m40s / 30s rec | 1m40s | 2\u00d71m20s / 20s rec",
+      "description": "Warmup\n4 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n4x\n- 90s 50mtr intensity=warmup\n- 20s intensity=rest\n\nMainset\n4 x 50m \u6276\u677f\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 120s 50mtr \n- 30s intensity=rest\n\n4 x 50m \u6d41\u7ebf\u578b\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 100s 50mtr \n- 30s intensity=rest\n\n4 x 30\u79d2 \u6276\u6c60\u8fb9\u4fa7\u8eab\u6253\u817f\uff08\u539f\u5730\u7ec3\u4e60\uff0c\u5de6\u53f3\u54042\u6b21\uff09\n4x\n- 30s\n- 20s  intensity=rest\n\n2 x 50m \u4fa7\u8eab\u6253\u817f\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff09\uff08\u7ec4\u95f4\u4f11\u606f40\u79d2\uff09\n2x\n- 120s 50mtr \n- 40s intensity=rest\n\n2 x 50m \u65e0\u677f\u4fa7\u8eab\u6253\u817f+\u6362\u6c14\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f45\u79d2\uff09\n2x\n- 130s 50mtr \n- 45s intensity=rest\n\n2 x 50m \u5355\u81c2\u81ea\u7531\u6cf3\uff08\u5de625m + \u53f325m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n2x\n- 100s 50mtr \n- 30s intensity=rest\n\n1 x 50m \u914d\u5408\u6e38\uff083\u52121\u6362\u6c14\uff09\n- 100s 50mtr\n\nCooldown\n2 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n2x\n- 80s 50mtr intensity=cooldown\n- 20s intensity=rest\n\n[Athlete requested]"
     },
     {
       "id": 139680992,
@@ -1083,10 +1083,9 @@
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 23,
-      "duration_hours": 0.77,
-      "duration_formatted": "46m16s",
-      "workout_summary": null,
-      "description_preview": "Main Set\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace"
+      "duration_hours": 0.83,
+      "duration_formatted": "49m50s",
+      "workout_summary": "4\u00d71m30s / 20s rec | 4\u00d72m / 30s rec | 4\u00d71m40s / 30s rec | 4\u00d730s / 20s rec | 2\u00d72m / 40s rec | 2\u00d72m10s / 45s rec | 2\u00d71m40s / 30s rec | 1m40s | 2\u00d71m20s / 20s rec"
     },
     {
       "id": 139681095,
@@ -1147,16 +1146,15 @@
       "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u5f00\u59cb\u8f7b\u677e\u8dd1\uff01 5m 62-66% pace\nMain Set"
     },
     {
-      "id": 139682611,
+      "id": 139829171,
       "date": "2026-10-14",
       "name": "IntervalCoach - \u81ea\u7531\u6cf3\u6280\u672f\u5de9\u56fa",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 23,
-      "duration_hours": 0.77,
-      "duration_formatted": "46m16s",
-      "workout_summary": null,
-      "description_preview": "Main Set\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace"
+      "duration_hours": 0.83,
+      "duration_formatted": "49m50s",
+      "workout_summary": "4\u00d71m30s / 20s rec | 4\u00d72m / 30s rec | 4\u00d71m40s / 30s rec | 4\u00d730s / 20s rec | 2\u00d72m / 40s rec | 2\u00d72m10s / 45s rec | 2\u00d71m40s / 30s rec | 1m40s | 2\u00d71m20s / 20s rec"
     },
     {
       "id": 139681174,
@@ -1223,10 +1221,9 @@
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 23,
-      "duration_hours": 0.77,
-      "duration_formatted": "46m16s",
-      "workout_summary": null,
-      "description_preview": "Main Set\n- 250mtr 3:20/100m Pace\n- 150mtr 4:00/100m Pace"
+      "duration_hours": 0.83,
+      "duration_formatted": "49m50s",
+      "workout_summary": "4\u00d71m30s / 20s rec | 4\u00d72m / 30s rec | 4\u00d71m40s / 30s rec | 4\u00d730s / 20s rec | 2\u00d72m / 40s rec | 2\u00d72m10s / 45s rec | 2\u00d71m40s / 30s rec | 1m40s | 2\u00d71m20s / 20s rec"
     },
     {
       "id": 139681225,
@@ -1275,6 +1272,17 @@
       "description_preview": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fdb\u9636\u8dd1\uff01 5m ramp 65-78% pace\nMain Set"
     },
     {
+      "id": 139829140,
+      "date": "2026-10-27",
+      "name": "IntervalCoach - \u51b2\u523a\u722c\u5347",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 36,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": "5m | 1m | 6\u00d71m30s / 1m30s rec | 2 \u00d7 1m30s | 3m"
+    },
+    {
       "id": 94989382,
       "date": "2026-11-08",
       "name": "2026 HEROS \u5343\u5c9b\u6e56\u7ad9",
@@ -1288,12 +1296,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 22,
-    "success": 7,
-    "patternA": 7,
+    "attempted": 23,
+    "success": 12,
+    "patternA": 12,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 15
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 3.94,
