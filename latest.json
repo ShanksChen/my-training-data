@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-09T19:49:16.403032",
+    "last_updated": "2026-10-09T23:54:57.675681",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -398,7 +398,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.2,
+          "planned_tss_delta": 0.18,
           "hard_sessions_planned": 3,
           "race_proximity": 2,
           "next_week_load": 0.29,
@@ -436,7 +436,7 @@
     "p_max": 902,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-09T19:49:16.401742",
+    "calculation_timestamp": "2026-10-09T23:54:57.674499",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1004,16 +1004,16 @@
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b+\u8282\u594f\u6311\u6218\uff01 15m ramp 45-75% 85rpm\n\nMain Set\n4x\n- Endurance 88rpm 15m 65-75% 88rpm\n- Tempo 90rpm 5m 76-82% 90rpm\n\nRecovery\n- Endurance 5 88rpm 15m 65-75% 88rpm\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceWithTempo]"
     },
     {
-      "id": 139681122,
+      "id": 143079224,
       "date": "2026-10-10",
       "name": "IntervalCoach - \u8102\u80aa\u6700\u5927\u5316",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 23,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
+      "planned_tss": 20,
+      "duration_hours": 0.43,
+      "duration_formatted": "26m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8fdb\u884c\u8102\u80aa\u6700\u5927\u5316\u8bad\u7ec3 5m ramp 65-72% pace\n\nMain Set\n- Fat Max 22m 65-72% pace\n\nCooldown\n- 3m ramp 72-65% pace\n\n[Weekly Plan - Build \u00b7 type:enduranceFatMax]"
+      "description": "Warmup\n- Shanks, \u51c6\u5907\u597d\u8fdb\u884c\u8102\u80aa\u6700\u5927\u5316\u8bad\u7ec3 4m ramp 65-72% pace\n\nMain Set\n- Fat Max 19m 65-72% pace\n\nCooldown\n- 3m ramp 72-65% pace\n\n[Weekly Plan - Build \u00b7 type:enduranceFatMax]"
     },
     {
       "id": 131256653,
@@ -1285,6 +1285,17 @@
       "description_preview": "Warmup\n- 0^ Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u4eca\u5929\u7684\u8fdb\u9636\u6709\u6c27\u6311\u6218\uff01 15m ramp 45-75% 85rpm\nMain Set"
     },
     {
+      "id": 143079249,
+      "date": "2026-11-07",
+      "name": "IntervalCoach - 3x7 \u6709\u6c27\u52a0\u901f\u8dd1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 42,
+      "duration_hours": 0.65,
+      "duration_formatted": "39m",
+      "workout_summary": "3 \u00d7 2m | 3\u00d77m / 30s rec | 6m | 30s | 2 \u00d7 2m"
+    },
+    {
       "id": 94989382,
       "date": "2026-11-08",
       "name": "2026 HEROS \u5343\u5c9b\u6e56\u7ad9",
@@ -1298,9 +1309,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 23,
-    "success": 10,
-    "patternA": 10,
+    "attempted": 24,
+    "success": 11,
+    "patternA": 11,
     "patternB": 0,
     "bail_no_workout_doc": 1,
     "bail_no_match": 13
