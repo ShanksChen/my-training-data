@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-12T00:00:15.267696",
+    "last_updated": "2026-10-12T06:02:36.879454",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -126,10 +126,10 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Build",
-      "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "phase": "Base",
+      "phase_week": 5,
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": null,
@@ -138,9 +138,9 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-09-07",
-    "age_days": 34,
-    "total_months": 12,
+    "last_generated": "2026-10-12",
+    "age_days": 0,
+    "total_months": 13,
     "history_confidence": "high"
   },
   "summary": {
@@ -389,33 +389,33 @@
       ]
     },
     "phase_detection": {
-      "phase": "Build",
+      "phase": "Base",
       "confidence": "medium",
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": -1.53,
+          "ctl_slope": -0.85,
           "acwr_trend": "rising",
-          "hard_day_pattern": 1.2,
+          "hard_day_pattern": 0.8,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.26,
+          "planned_tss_delta": 0.37,
           "hard_sessions_planned": 6,
           "race_proximity": 6,
-          "next_week_load": 0.55,
+          "next_week_load": 0.78,
           "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
-      "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "previous_phase": "Base",
+      "phase_duration_weeks": 5,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
+    "phase_detected": "Base",
     "phase_triggers": [],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
@@ -438,7 +438,7 @@
     "p_max": 901,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-12T00:00:15.266379",
+    "calculation_timestamp": "2026-10-12T06:02:36.878570",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
