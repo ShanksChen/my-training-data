@@ -65,15 +65,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 5.66,
-      "total_training_formatted": "5h39m",
-      "total_activities": 4,
-      "total_tss": 343
+      "total_training_hours": 6.08,
+      "total_training_formatted": "6h4m",
+      "total_activities": 5,
+      "total_tss": 352
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-14T06:35:49.602939",
+    "last_updated": "2026-10-14T12:25:19.335837",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -81,10 +81,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 1.52,
+      "value": 1.54,
       "severity": "alarm",
       "threshold": "0.75 / 1.35",
-      "context": "ACWR 1.52 outside safe range. Injury/overreach risk elevated.",
+      "context": "ACWR 1.54 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     }
@@ -112,7 +112,7 @@
       },
       "acwr": {
         "status": "red",
-        "value": 1.52
+        "value": 1.54
       },
       "ri": {
         "status": "green",
@@ -133,7 +133,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P1 acute overload. ACWR 1.52 > 1.5.",
+    "reason": "P1 acute overload. ACWR 1.54 > 1.5.",
     "alarm_refs": []
   },
   "history": {
@@ -146,8 +146,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 5.66,
-    "total_activities": 4,
+    "total_duration_decimal_hours": 6.08,
+    "total_activities": 5,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 2.64,
@@ -161,6 +161,12 @@
         "tss": 51,
         "distance_km": 8.7
       },
+      "Swim": {
+        "duration_decimal_hours": 0.42,
+        "count": 1,
+        "tss": 9,
+        "distance_km": 0.4
+      },
       "VirtualRide": {
         "duration_decimal_hours": 2.0,
         "count": 1,
@@ -171,11 +177,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 41.62,
-      "atl": 37.53,
-      "tsb": 4.09,
-      "ramp_rate": 1.48,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 41.84,
+      "atl": 38.72,
+      "tsb": 3.12,
+      "ramp_rate": 1.43,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 241.9,
@@ -234,7 +240,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4509,
+      "steps": 6762,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -253,43 +259,43 @@
     "rhr_baseline_28d": 51.2,
     "latest_hrv": 56.0,
     "latest_rhr": 49,
-    "acwr": 1.52,
+    "acwr": 1.54,
     "acwr_interpretation": "danger",
-    "monotony": 0.69,
+    "monotony": 0.71,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
     "primary_sport_monotony": null,
     "primary_sport_tss_7d": 292.0,
-    "effective_monotony": 0.69,
+    "effective_monotony": 0.71,
     "multi_sport_detected": true,
-    "strain": 237.0,
-    "stress_tolerance": 3.4,
-    "load_recovery_ratio": 2.9,
-    "tss_7d_total": 343.0,
-    "tss_28d_total": 905.0,
+    "strain": 250.0,
+    "stress_tolerance": 3.5,
+    "load_recovery_ratio": 3.0,
+    "tss_7d_total": 352.0,
+    "tss_28d_total": 914.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.51,
+      "z1_hours": 1.92,
       "z2_hours": 2.22,
       "z3_hours": 1.25,
       "z4_plus_hours": 0.68,
-      "total_hours": 5.66,
+      "total_hours": 6.08,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 22.0,
+    "grey_zone_percentage": 20.5,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 12.1,
+    "quality_intensity_percentage": 11.3,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.66,
+    "polarisation_index": 0.68,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 2,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 13422,
+      "z1_seconds": 14927,
       "z2_seconds": 4487,
       "z3_seconds": 2462,
-      "z1_pct": 65.9,
-      "z2_pct": 22.0,
-      "z3_pct": 12.1,
+      "z1_pct": 68.2,
+      "z2_pct": 20.5,
+      "z3_pct": 11.3,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
@@ -307,12 +313,12 @@
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 48050,
+      "z1_seconds": 49555,
       "z2_seconds": 6626,
       "z3_seconds": 3301,
-      "z1_pct": 82.9,
-      "z2_pct": 11.4,
-      "z3_pct": 5.7,
+      "z1_pct": 83.3,
+      "z2_pct": 11.1,
+      "z3_pct": 5.5,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
@@ -432,12 +438,12 @@
     "p_max": 901,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-14T06:35:49.601624",
+    "calculation_timestamp": "2026-10-14T12:25:19.108658",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 4,
-      "activities_28d": 22,
+      "activities_7d": 5,
+      "activities_28d": 23,
       "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 212,
@@ -446,6 +452,52 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i197180521",
+      "date": "2026-10-14T19:40:05",
+      "type": "Swim",
+      "name": "IntervalCoach - \u81ea\u7531\u6cf3\u6280\u672f\u5de9\u56fa",
+      "duration_hours": 0.42,
+      "distance_km": 0.4,
+      "tss": 9,
+      "intensity_factor": 41.05781,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 108,
+      "max_hr": 145,
+      "avg_cadence": 36.51579,
+      "avg_speed": 5.7,
+      "max_speed": 10.7,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 199,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": 2,
+      "rpe": 2,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 1505,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true,
+      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 6/10\nTSS: 9\n\u8bad\u7ec3\u523a\u6fc0: recovery\n\n\ud83d\udcc8 \u8fdb\u6b65\uff08\u5bf9\u6bd4 10 \u5468\u524d\uff09 \u2014 \"\u6cf3\u6c60\u6e38\u6cf3\", 8\u67085\u65e5\nTrend: \u7a33\u5b9a\n\n\ud83d\udd17 interval.coach/r/G97RXQ"
+    },
     {
       "id": "i196798870",
       "date": "2026-10-13T19:38:28",
@@ -927,7 +979,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4509,
+      "steps": 6762,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -946,10 +998,10 @@
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 23,
-      "duration_hours": 0.83,
-      "duration_formatted": "49m50s",
-      "workout_summary": "4\u00d71m30s / 20s rec | 4\u00d72m / 30s rec | 4\u00d71m40s / 30s rec | 4\u00d730s / 20s rec | 2\u00d72m / 40s rec | 2\u00d72m10s / 45s rec | 2\u00d71m40s / 30s rec | 1m40s | 2\u00d71m20s / 20s rec",
-      "description": "Warmup\n4 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n4x\n- 90s 50mtr intensity=warmup\n- 20s intensity=rest\n\nMainset\n4 x 50m \u6276\u677f\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 120s 50mtr \n- 30s intensity=rest\n\n4 x 50m \u6d41\u7ebf\u578b\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 100s 50mtr \n- 30s intensity=rest\n\n4 x 30\u79d2 \u6276\u6c60\u8fb9\u4fa7\u8eab\u6253\u817f\uff08\u539f\u5730\u7ec3\u4e60\uff0c\u5de6\u53f3\u54042\u6b21\uff09\n4x\n- 30s\n- 20s  intensity=rest\n\n2 x 50m \u4fa7\u8eab\u6253\u817f\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff09\uff08\u7ec4\u95f4\u4f11\u606f40\u79d2\uff09\n2x\n- 120s 50mtr \n- 40s intensity=rest\n\n2 x 50m \u65e0\u677f\u4fa7\u8eab\u6253\u817f+\u6362\u6c14\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f45\u79d2\uff09\n2x\n- 130s 50mtr \n- 45s intensity=rest\n\n2 x 50m \u5355\u81c2\u81ea\u7531\u6cf3\uff08\u5de625m + \u53f325m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n2x\n- 100s 50mtr \n- 30s intensity=rest\n\n1 x 50m \u914d\u5408\u6e38\uff083\u52121\u6362\u6c14\uff09\n- 100s 50mtr\n\nCooldown\n2 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n2x\n- 80s 50mtr intensity=cooldown\n- 20s intensity=rest\n\n[Athlete requested]"
+      "duration_hours": 0.8,
+      "duration_formatted": "48m10s",
+      "workout_summary": "4\u00d71m30s / 20s rec | 4\u00d72m / 30s rec | 4\u00d71m40s / 30s rec | 2\u00d72m / 40s rec | 2\u00d72m10s / 45s rec | 2\u00d71m40s / 30s rec | 2\u00d71m20s / 20s rec",
+      "description": "Warmup\n4 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n4x\n- 90s 50mtr intensity=warmup\n- 20s intensity=rest\n\nMainset\n4 x 50m \u6276\u677f\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 120s 50mtr \n- 30s intensity=rest\n\n2 x 50m \u6d41\u7ebf\u578b\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 100s 50mtr \n- 30s intensity=rest\n\n2 x 50m \u4fa7\u8eab\u6253\u817f\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff09\uff08\u7ec4\u95f4\u4f11\u606f40\u79d2\uff09\n2x\n- 120s 50mtr \n- 40s intensity=rest\n\n2 x 50m \u65e0\u677f\u4fa7\u8eab\u6253\u817f+\u6362\u6c14\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f45\u79d2\uff09\n2x\n- 130s 50mtr \n- 45s intensity=rest\n\n2 x 50m \u5355\u81c2\u81ea\u7531\u6cf3\uff08\u5de625m + \u53f325m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n2x\n- 100s 50mtr \n- 30s intensity=rest\n\n2 x 50m \u914d\u5408\u6e38\uff083\u52121\u6362\u6c14\uff09\n2x\n- 100s 50mtr\n\nCooldown\n2 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n2x\n- 80s 50mtr intensity=cooldown\n- 20s intensity=rest\n\n[Athlete requested]"
     },
     {
       "id": 139681174,
@@ -1012,16 +1064,16 @@
       "description": "Warmup\n- Shanks\uff0c\u70ed\u8eab\u5b8c\u6bd5\uff0c\u51c6\u5907\u8f7b\u677e\u8dd1 5m ramp 65-87% pace\n\nMain Set\n7x\n- EIM 90s 88-92% pace\n- Recovery 75s 75-79% pace\n\nMain Set\n- EIM 8 90s 88-92% pace\n- Easy Aerobic 315s 65-77% pace\n\nCooldown\n- 2m 73-77% pace\n- 2m 63-67% pace\n\n[Weekly Plan - Build \u00b7 type:eimMediumIntervals]"
     },
     {
-      "id": 139682612,
+      "id": 144535360,
       "date": "2026-10-21",
       "name": "IntervalCoach - \u81ea\u7531\u6cf3\u6280\u672f\u5de9\u56fa",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 23,
-      "duration_hours": 0.83,
-      "duration_formatted": "49m50s",
-      "workout_summary": "4\u00d71m30s / 20s rec | 4\u00d72m / 30s rec | 4\u00d71m40s / 30s rec | 4\u00d730s / 20s rec | 2\u00d72m / 40s rec | 2\u00d72m10s / 45s rec | 2\u00d71m40s / 30s rec | 1m40s | 2\u00d71m20s / 20s rec",
-      "description": "Warmup\n4 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n4x\n- 90s 50mtr intensity=warmup\n- 20s intensity=rest\n\nMainset\n4 x 50m \u6276\u677f\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 120s 50mtr \n- 30s intensity=rest\n\n4 x 50m \u6d41\u7ebf\u578b\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 100s 50mtr \n- 30s intensity=rest\n\n4 x 30\u79d2 \u6276\u6c60\u8fb9\u4fa7\u8eab\u6253\u817f\uff08\u539f\u5730\u7ec3\u4e60\uff0c\u5de6\u53f3\u54042\u6b21\uff09\n4x\n- 30s\n- 20s  intensity=rest\n\n2 x 50m \u4fa7\u8eab\u6253\u817f\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff09\uff08\u7ec4\u95f4\u4f11\u606f40\u79d2\uff09\n2x\n- 120s 50mtr \n- 40s intensity=rest\n\n2 x 50m \u65e0\u677f\u4fa7\u8eab\u6253\u817f+\u6362\u6c14\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f45\u79d2\uff09\n2x\n- 130s 50mtr \n- 45s intensity=rest\n\n2 x 50m \u5355\u81c2\u81ea\u7531\u6cf3\uff08\u5de625m + \u53f325m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n2x\n- 100s 50mtr \n- 30s intensity=rest\n\n1 x 50m \u914d\u5408\u6e38\uff083\u52121\u6362\u6c14\uff09\n- 100s 50mtr\n\nCooldown\n2 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n2x\n- 80s 50mtr intensity=cooldown\n- 20s intensity=rest\n\n[Athlete requested]"
+      "duration_hours": 0.8,
+      "duration_formatted": "48m10s",
+      "workout_summary": "4\u00d71m30s / 20s rec | 4\u00d72m / 30s rec | 4\u00d71m40s / 30s rec | 2\u00d72m / 40s rec | 2\u00d72m10s / 45s rec | 2\u00d71m40s / 30s rec | 2\u00d71m20s / 20s rec",
+      "description": "Warmup\n4 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n4x\n- 90s 50mtr intensity=warmup\n- 20s intensity=rest\n\nMainset\n4 x 50m \u6276\u677f\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 120s 50mtr \n- 30s intensity=rest\n\n2 x 50m \u6d41\u7ebf\u578b\u6253\u817f\uff08\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n4x\n- 100s 50mtr \n- 30s intensity=rest\n\n2 x 50m \u4fa7\u8eab\u6253\u817f\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff09\uff08\u7ec4\u95f4\u4f11\u606f40\u79d2\uff09\n2x\n- 120s 50mtr \n- 40s intensity=rest\n\n2 x 50m \u65e0\u677f\u4fa7\u8eab\u6253\u817f+\u6362\u6c14\uff08\u5de6\u53f3\u540425m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f45\u79d2\uff09\n2x\n- 130s 50mtr \n- 45s intensity=rest\n\n2 x 50m \u5355\u81c2\u81ea\u7531\u6cf3\uff08\u5de625m + \u53f325m\u6362\u8fb9\uff0c\u7ec4\u95f4\u4f11\u606f30\u79d2\uff09\n2x\n- 100s 50mtr \n- 30s intensity=rest\n\n2 x 50m \u914d\u5408\u6e38\uff083\u52121\u6362\u6c14\uff09\n2x\n- 100s 50mtr\n\nCooldown\n2 x 50m \u6781\u8f7b\u677e\u6e38\uff08\u7ec4\u95f4\u4f11\u606f20\u79d2\uff09\n2x\n- 80s 50mtr intensity=cooldown\n- 20s intensity=rest\n\n[Athlete requested]"
     },
     {
       "id": 139681225,
@@ -1219,21 +1271,33 @@
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": "3m | 6m | 3m45s | 24\u00d715s / 15s rec | 4m | 24\u00d715s / 15s rec | 4m | 15s | 9m | 2 \u00d7 3m"
+    },
+    {
+      "id": 144535415,
+      "date": "2026-11-11",
+      "name": "IntervalCoach - \u8f7b\u677e\u6709\u6c27\u6e38",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 36,
+      "duration_hours": 0.66,
+      "duration_formatted": "39m27s",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u4eca\u5929\u8f7b\u677e\u7545\u6e38 250mtr 2:38/100m Pace\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 22,
+    "attempted": 23,
     "success": 11,
     "patternA": 11,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 11
+    "bail_no_match": 12
   },
   "weekly_summary": {
-    "total_training_hours": 5.66,
-    "total_training_formatted": "5h39m",
-    "total_tss": 343,
-    "activities_count": 4,
+    "total_training_hours": 6.08,
+    "total_training_formatted": "6h4m",
+    "total_tss": 352,
+    "activities_count": 5,
     "avg_hrv": 50.7,
     "avg_resting_hr": 51.9
   },
