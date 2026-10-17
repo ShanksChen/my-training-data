@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-17T01:27:28.118103",
+    "last_updated": "2026-10-17T06:03:38.944013",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -249,7 +249,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5652,
+      "steps": 7971,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -413,9 +413,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 2,
           "race_proximity": 1,
-          "next_week_load": 0.78,
+          "next_week_load": 1.03,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -448,7 +448,7 @@
     "p_max": 901,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-17T01:27:28.117160",
+    "calculation_timestamp": "2026-10-17T06:03:38.942731",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1044,7 +1044,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5652,
+      "steps": 7971,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1075,10 +1075,10 @@
       "type": "RACE_C",
       "sport_type": "Ride",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 3.5,
+      "duration_formatted": "3h30m",
       "workout_summary": null,
-      "description": ""
+      "description": "[IC course:31ac34274ee649ecb4019c4bea85f61e]"
     },
     {
       "id": 144967846,
@@ -1091,6 +1091,18 @@
       "duration_formatted": "45m",
       "workout_summary": null,
       "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8dd1\u6b65\u8ba1\u65f6\u6311\u6218\uff01 3m 63-67% pace\n- 3m 74-78% pace\n- 3m 85-89% pace\n\nMain Set\n- Time Trial 30m 95-100% pace\n\nCooldown\n- 3m 76-80% pace\n- \u8dd1\u5f97\u51fa\u8272\uff0c\u8f7b\u677e\u6162\u8dd1\u653e\u677e\u5427\uff01 3m 63-67% pace\n\n[Weekly Plan - Build \u00b7 type:runTimeTrialTest]"
+    },
+    {
+      "id": 145332618,
+      "date": "2026-10-20",
+      "name": "IntervalCoach - 2x5 \u8010\u529b\u8282\u594f\u52a0\u901f",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 47,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": null,
+      "description": "Warmup\n- Shanks\uff0c\u6b22\u8fce\uff01\u4eca\u5929\u7a33\u9a91\u8010\u529b\uff0c\u7a7f\u63d2\u8282\u594f\u52a0\u901f 9m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 1 88rpm 11m 65-75% 88rpm\n- Tempo 1 90rpm 5m 76-82% 90rpm\n- Endurance 2 88rpm 11m 65-75% 88rpm\n- Tempo 2 90rpm 5m 76-82% 90rpm\n- Endurance 3 88rpm 11m 65-75% 88rpm\n\nCooldown\n- \u9a91\u5f97\u6f02\u4eae\uff0c\u653e\u677e\u8f6c\u817f\uff0c\u4eab\u53d7\u6210\u679c 6m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceWithTempo]"
     },
     {
       "id": 144535360,
@@ -1351,12 +1363,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 23,
+    "attempted": 24,
     "success": 10,
     "patternA": 10,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 13
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 14
   },
   "weekly_summary": {
     "total_training_hours": 6.12,
@@ -1373,8 +1385,8 @@
       "category": "RACE_C",
       "type": "Ride",
       "days_until": 1,
-      "moving_time_seconds": null,
-      "distance_meters": null
+      "moving_time_seconds": 12600,
+      "distance_meters": 110099.0
     },
     "all_races": [
       {
@@ -1383,8 +1395,8 @@
         "category": "RACE_C",
         "type": "Ride",
         "days_until": 1,
-        "moving_time_seconds": null,
-        "distance_meters": null
+        "moving_time_seconds": 12600,
+        "distance_meters": 110099.0
       },
       {
         "name": "2026 HEROS \u5343\u5c9b\u6e56\u7ad9",
