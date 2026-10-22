@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-22T07:23:20.995433",
+    "last_updated": "2026-10-22T13:07:32.797701",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -228,7 +228,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5332,
+      "steps": 9597,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -425,7 +425,7 @@
     "p_max": 901,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-22T07:23:20.994113",
+    "calculation_timestamp": "2026-10-22T13:07:32.796340",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -913,7 +913,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5332,
+      "steps": 9597,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -926,8 +926,20 @@
   ],
   "planned_workouts": [
     {
-      "id": 146377085,
+      "id": 146375459,
       "date": "2026-10-22",
+      "name": "IntervalCoach - Running Time Trial",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 60,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u51c6\u5907\u597d\u8fce\u63a5\u8dd1\u6b65\u8ba1\u65f6\u6d4b\u8bd5 3m 63-67% pace\n- 3m 74-78% pace\n- 3m 85-89% pace\n\nMain Set\n- Time Trial 30m 95-100% pace\n\nCooldown\n- 3m 76-80% pace\n- \u8dd1\u5f97\u51fa\u8272\uff0c\u8f7b\u677e\u6162\u8dd1\u653e\u677e\u4e00\u4e0b 3m 63-67% pace\n\n[Athlete moved - was plan: Build \u00b7 type:runTimeTrialTest]"
+    },
+    {
+      "id": 146377085,
+      "date": "2026-10-23",
       "name": "IntervalCoach - \u8f7b\u677e\u6709\u6c27\u9a91\u884c",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -936,18 +948,6 @@
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "description": "Warmup\n- ShanksChen\uff0c\u6b22\u8fce\u5f00\u9a91\uff0c\u4eca\u5929\u7a33\u7a33\u79ef\u7d2f\u8010\u529b 11m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 85rpm 14m 65% 85rpm\n- Build 88rpm 14m 67% 88rpm\n- Upper 90rpm 14m 70-74% 90rpm\n- Cruise 88rpm 14m 70-74% 88rpm\n\nCooldown\n- \u9a91\u5f97\u5f88\u68d2\uff0c\u653e\u677e\u8f6c\u817f\uff0c\u4eab\u53d7\u6210\u679c 8m ramp 65-45%\n\n[Athlete requested \u00b7 type:endurance]"
-    },
-    {
-      "id": 146375459,
-      "date": "2026-10-23",
-      "name": "IntervalCoach - Running Time Trial",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 60,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u4f60\u597d\uff01\u51c6\u5907\u597d\u8fce\u63a5\u8dd1\u6b65\u8ba1\u65f6\u6d4b\u8bd5 3m 63-67% pace\n- 3m 74-78% pace\n- 3m 85-89% pace\n\nMain Set\n- Time Trial 30m 95-100% pace\n\nCooldown\n- 3m 76-80% pace\n- \u8dd1\u5f97\u51fa\u8272\uff0c\u8f7b\u677e\u6162\u8dd1\u653e\u677e\u4e00\u4e0b 3m 63-67% pace\n\n[Weekly Plan - Build \u00b7 type:runTimeTrialTest]"
     },
     {
       "id": 146375494,
