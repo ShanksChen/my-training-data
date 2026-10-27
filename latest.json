@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-27T01:19:32.949389",
+    "last_updated": "2026-10-27T06:42:56.581586",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -232,13 +232,13 @@
       "sleep_hours": 5.08,
       "sleep_formatted": "5h5m",
       "sleep_score": 62.0,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 2,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 1,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -408,7 +408,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.05,
+          "planned_tss_delta": 1.11,
           "hard_sessions_planned": 5,
           "race_proximity": 12,
           "next_week_load": 0.74,
@@ -446,7 +446,7 @@
     "p_max": 899,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-27T01:19:32.948008",
+    "calculation_timestamp": "2026-10-27T06:42:56.580507",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -973,13 +973,13 @@
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 2,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 1,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -1011,7 +1011,7 @@
       "duration_hours": 0.73,
       "duration_formatted": "43m45s",
       "workout_summary": "6m35s | 2m47s | 4\u00d77m3s / 30s rec | 4m11s",
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u6e38\uff01 250mtr 2:38/100m Pace\n\nMain Set\n- Drills (catch-up, fingertip drag, sculling) 100mtr 2:47/100m Pace\n\n4x\n- Aerobic freestyle 300mtr 2:21/100m Pace\n- Rest 30s\n\nCooldown\n- \u6e38\u5f97\u6f02\u4eae\uff0c\u8f7b\u677e\u5212\u6c34\u6536\u5c3e\uff01 150mtr 2:47/100m Pace\n\n[Weekly Plan - Build \u00b7 type:endurance]"
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u597d\u8fce\u63a5\u8010\u529b\u6e38\uff01 250mtr 2:38/100m Pace\n\nMain Set\n- Drills (catch-up, fingertip drag, sculling) 100mtr 2:47/100m Pace\n\n4x\n- Aerobic freestyle 300mtr 2:21/100m Pace\n- Rest 30s\n\nCooldown\n- \u6e38\u5f97\u6f02\u4eae\uff0c\u8f7b\u677e\u5212\u6c34\u6536\u5c3e\uff01 150mtr 2:47/100m Pace\n\n[Weekly Plan - Peak \u00b7 type:endurance]"
     },
     {
       "id": 146375630,
@@ -1023,7 +1023,7 @@
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u5f00\u542f\u6e10\u8fdb\u5f0f\u6709\u6c27\u9a91\u884c\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n- Low 85rpm 22m 65% 85rpm\n- Mid 88rpm 22m 69% 88rpm\n- Upper 90rpm 23m 73% 90rpm\n\nCooldown\n- \u9a91\u5f97\u6f02\u4eae\uff0c\u8f7b\u677e\u8f6c\u4e00\u8f6c\uff01 9m ramp 65-45%\n\n[Weekly Plan - Build \u00b7 type:enduranceProgressive]"
+      "description": "Warmup\n- Shanks\uff0c\u51c6\u5907\u5f00\u542f\u6e10\u8fdb\u5f0f\u6709\u6c27\u9a91\u884c\uff01 14m ramp 45-75% 85rpm\n\nMain Set\n- Low 85rpm 22m 65% 85rpm\n- Mid 88rpm 22m 69% 88rpm\n- Upper 90rpm 23m 73% 90rpm\n\nCooldown\n- \u9a91\u5f97\u6f02\u4eae\uff0c\u8f7b\u677e\u8f6c\u4e00\u8f6c\uff01 9m ramp 65-45%\n\n[Weekly Plan - Peak \u00b7 type:enduranceProgressive]"
     },
     {
       "id": 148388771,
@@ -1043,11 +1043,11 @@
       "name": "IntervalCoach - \u6062\u590d\u8dd1",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 29,
-      "duration_hours": 0.63,
-      "duration_formatted": "38m",
+      "planned_tss": 38,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
-      "description": "Warmup\n- Shanks\uff0c\u4eca\u5929\u8f7b\u677e\u6062\u590d\u8dd1\uff0c\u8212\u5c55\u6b65\u4f10\uff01 6m 64-68% pace\n\nMain Set\n- Easy 14m 65-69% pace intensity=recovery\n- Shake Out 14m 68-72% pace intensity=recovery\n\nCooldown\n- 2m 68-72% pace\n- \u8dd1\u5f97\u5f88\u597d\uff0c\u653e\u677e\u6536\u5c3e\uff0c\u7ee7\u7eed\u79ef\u7d2f\uff01 2m 63-67% pace\n\n[Weekly Plan - Build \u00b7 type:recovery]"
+      "description": "Warmup\n- Shanks\uff0c\u4eca\u5929\u8f7b\u677e\u6062\u590d\u8dd1\uff0c\u8212\u5c55\u6b65\u4f10\uff01 10m 64-68% pace\n\nMain Set\n- Easy 15m 65-69% pace intensity=recovery\n- Shake Out 15m 68-72% pace intensity=recovery\n\nCooldown\n- 5m 68-72% pace\n- \u8dd1\u5f97\u5f88\u597d\uff0c\u653e\u677e\u6536\u5c3e\uff0c\u7ee7\u7eed\u79ef\u7d2f\uff01 5m 63-67% pace\n\n[Weekly Plan - Peak \u00b7 type:recovery]"
     },
     {
       "id": 146376652,
@@ -1261,6 +1261,18 @@
       "description_preview": "Warmup\n- ShanksChen\uff0c\u6b22\u8fce\u5f00\u8dd1\uff0c\u8010\u529b\u8bad\u7ec3\u5373\u5c06\u5f00\u59cb 8m 63-67% pace\n- 10m 75-79% pace"
     },
     {
+      "id": 148771045,
+      "date": "2026-11-24",
+      "name": "IntervalCoach - \u6301\u7eed\u9608\u503c\u8dd1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 35,
+      "duration_hours": 0.47,
+      "duration_formatted": "28m",
+      "workout_summary": null,
+      "description_preview": "Warmup\n- Shanks\uff0c\u7a33\u6001\u9608\u503c\u8dd1\u5373\u5c06\u5f00\u59cb 84s ramp 63-67% pace\n- 168s ramp 75-79% pace"
+    },
+    {
       "id": 146376777,
       "date": "2026-11-29",
       "name": "IntervalCoach - \u8d5b\u524d\u51cf\u91cf\u8f7b\u677e\u957f\u8dd1",
@@ -1286,12 +1298,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 22,
+    "attempted": 23,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 16
+    "bail_no_match": 17
   },
   "weekly_summary": {
     "total_training_hours": 4.54,
