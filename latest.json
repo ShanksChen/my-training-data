@@ -65,15 +65,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 3.86,
-      "total_training_formatted": "3h51m",
-      "total_activities": 4,
-      "total_tss": 238
+      "total_training_hours": 4.54,
+      "total_training_formatted": "4h32m",
+      "total_activities": 5,
+      "total_tss": 255
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-28T08:08:19.957804",
+    "last_updated": "2026-10-28T15:08:14.243781",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -112,7 +112,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.83
+        "value": 0.88
       },
       "ri": {
         "status": "green",
@@ -120,7 +120,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 8.3
+        "value": 6.4
       }
     },
     "signal_summary": {
@@ -150,14 +150,20 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 3.86,
-    "total_activities": 4,
+    "total_duration_decimal_hours": 4.54,
+    "total_activities": 5,
     "by_activity_type": {
       "Run": {
         "duration_decimal_hours": 2.61,
         "count": 3,
         "tss": 177,
         "distance_km": 25.8
+      },
+      "Swim": {
+        "duration_decimal_hours": 0.68,
+        "count": 1,
+        "tss": 17,
+        "distance_km": 1.8
       },
       "VirtualRide": {
         "duration_decimal_hours": 1.25,
@@ -169,11 +175,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 42.03,
-      "atl": 33.73,
-      "tsb": 8.3,
+      "ctl": 42.43,
+      "atl": 35.99,
+      "tsb": 6.44,
       "ramp_rate": -1.26,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 240.9,
@@ -232,7 +238,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5331,
+      "steps": 8732,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -251,42 +257,42 @@
     "rhr_baseline_28d": 51.5,
     "latest_hrv": 42.0,
     "latest_rhr": 54,
-    "acwr": 0.83,
+    "acwr": 0.88,
     "acwr_interpretation": "optimal",
-    "monotony": 0.96,
-    "monotony_interpretation": "normal (primary sport 0.72, total 0.96 inflated by multi-sport)",
+    "monotony": 1.1,
+    "monotony_interpretation": "normal (primary sport 0.72, total 1.1 inflated by multi-sport)",
     "primary_sport": "run",
     "primary_sport_monotony": 0.72,
     "primary_sport_tss_7d": 177.0,
     "effective_monotony": 0.72,
     "multi_sport_detected": true,
-    "strain": 228.0,
-    "stress_tolerance": 2.4,
-    "load_recovery_ratio": 2.7,
-    "tss_7d_total": 238.0,
-    "tss_28d_total": 1144.0,
+    "strain": 280.0,
+    "stress_tolerance": 2.5,
+    "load_recovery_ratio": 2.9,
+    "tss_7d_total": 255.0,
+    "tss_28d_total": 1161.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.58,
+      "z1_hours": 2.26,
       "z2_hours": 1.76,
       "z3_hours": 0.49,
       "z4_plus_hours": 0.02,
-      "total_hours": 3.86,
+      "total_hours": 4.54,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 12.8,
+    "grey_zone_percentage": 10.9,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
     "quality_intensity_percentage": 0.5,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.87,
+    "polarisation_index": 0.89,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 12060,
+      "z1_seconds": 14502,
       "z2_seconds": 1777,
       "z3_seconds": 75,
-      "z1_pct": 86.7,
-      "z2_pct": 12.8,
+      "z1_pct": 88.7,
+      "z2_pct": 10.9,
       "z3_pct": 0.5,
       "polarization_index": null,
       "classification": "Base",
@@ -305,12 +311,12 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 54184,
+      "z1_seconds": 56626,
       "z2_seconds": 9572,
       "z3_seconds": 6289,
-      "z1_pct": 77.4,
-      "z2_pct": 13.7,
-      "z3_pct": 9.0,
+      "z1_pct": 78.1,
+      "z2_pct": 13.2,
+      "z3_pct": 8.7,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
@@ -430,12 +436,12 @@
     "p_max": 898,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-28T08:08:19.956818",
+    "calculation_timestamp": "2026-10-28T15:08:13.884573",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 4,
-      "activities_28d": 19,
+      "activities_7d": 5,
+      "activities_28d": 20,
       "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 226,
@@ -444,6 +450,52 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i202744260",
+      "date": "2026-10-28T20:07:52",
+      "type": "Swim",
+      "name": "IntervalCoach - \u6709\u6c27\u8010\u529b\u6e38",
+      "duration_hours": 0.68,
+      "distance_km": 1.8,
+      "tss": 17,
+      "intensity_factor": 46.885777,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 116,
+      "max_hr": 144,
+      "avg_cadence": 21.569614,
+      "avg_speed": 2.7,
+      "max_speed": 11.2,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 318,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": 3,
+      "rpe": 3,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 2442,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true,
+      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 8/10\nTSS: 17\n\u8bad\u7ec3\u523a\u6fc0: recovery\n\n\ud83d\udcc8 \u8fdb\u6b65\uff08\u5bf9\u6bd4 5 \u5468\u524d\uff09 \u2014 \"IntervalCoach - \u6280\u672f\u8010\u529b\", 9\u670818\u65e5\nTrend: \u7a33\u5b9a\n\n\ud83d\udd17 interval.coach/r/G97RXQ"
+    },
     {
       "id": "i201317458",
       "date": "2026-10-25T13:49:55",
@@ -927,7 +979,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5331,
+      "steps": 8732,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1211,6 +1263,17 @@
       "description_preview": "Warmup\n- Shanks\uff0c\u7a33\u6001\u9608\u503c\u8dd1\u5373\u5c06\u5f00\u59cb 84s ramp 63-67% pace\n- 168s ramp 75-79% pace"
     },
     {
+      "id": 149247497,
+      "date": "2026-11-25",
+      "name": "IntervalCoach - \u6709\u6c27\u8010\u529b\u6cf3",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 29,
+      "duration_hours": 0.71,
+      "duration_formatted": "42m20s",
+      "workout_summary": "5m16s | 19s | 2m47s | 4\u00d719s / 7m3s rec | 19s | 4m11s"
+    },
+    {
       "id": 146376777,
       "date": "2026-11-29",
       "name": "IntervalCoach - \u8d5b\u524d\u51cf\u91cf\u8f7b\u677e\u957f\u8dd1",
@@ -1236,18 +1299,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 23,
-    "success": 6,
-    "patternA": 6,
+    "attempted": 24,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 17
   },
   "weekly_summary": {
-    "total_training_hours": 3.86,
-    "total_training_formatted": "3h51m",
-    "total_tss": 238,
-    "activities_count": 4,
+    "total_training_hours": 4.54,
+    "total_training_formatted": "4h32m",
+    "total_tss": 255,
+    "activities_count": 5,
     "avg_hrv": 46.7,
     "avg_resting_hr": 52.6
   },
