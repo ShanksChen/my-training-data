@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T02:38:02.001114",
+  "generated_at": "2026-11-01T09:46:18.762361",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -406,6 +406,157 @@
           "zone": 2,
           "training_load": 8.287664,
           "decoupling": -4.497834
+        }
+      ]
+    },
+    {
+      "activity_id": "i204211662",
+      "date": "2026-11-01",
+      "type": "Run",
+      "name": "\u5609\u5b9a\u533a - IntervalCoach - \u8f7b\u677e\u957f\u8dd1\u9002",
+      "interval_summary": [
+        "2x 7m36s 313w",
+        "1x 5m37s 303w",
+        "1x 3m25s 318w",
+        "1x 2m59s 304w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 722,
+          "avg_power": 298,
+          "max_power": 366,
+          "avg_hr": 141,
+          "max_hr": 154,
+          "avg_cadence": 86.286705,
+          "zone": 3,
+          "training_load": 12.881158,
+          "decoupling": 3.7695374
+        },
+        {
+          "type": "WORK",
+          "label": "456s@313w89rpm",
+          "duration_secs": 479,
+          "avg_power": 304,
+          "max_power": 342,
+          "avg_hr": 152,
+          "max_hr": 156,
+          "avg_cadence": 87.68476,
+          "zone": 3,
+          "training_load": 8.801773,
+          "decoupling": -0.5840664
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 297,
+          "avg_power": 298,
+          "max_power": 330,
+          "avg_hr": 151,
+          "max_hr": 155,
+          "avg_cadence": 88.27609,
+          "zone": 3,
+          "training_load": 5.28,
+          "decoupling": 0.9264243
+        },
+        {
+          "type": "WORK",
+          "label": "337s@303w88rpm",
+          "duration_secs": 337,
+          "avg_power": 303,
+          "max_power": 338,
+          "avg_hr": 154,
+          "max_hr": 159,
+          "avg_cadence": 88.49852,
+          "zone": 3,
+          "training_load": 6.1519394,
+          "decoupling": 3.228982
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 418,
+          "avg_power": 302,
+          "max_power": 384,
+          "avg_hr": 153,
+          "max_hr": 158,
+          "avg_cadence": 88.77991,
+          "zone": 3,
+          "training_load": 7.630595,
+          "decoupling": 1.8524998
+        },
+        {
+          "type": "WORK",
+          "label": "456s@313w89rpm",
+          "duration_secs": 433,
+          "avg_power": 321,
+          "max_power": 370,
+          "avg_hr": 156,
+          "max_hr": 164,
+          "avg_cadence": 90.69515,
+          "zone": 3,
+          "training_load": 8.813186,
+          "decoupling": -1.7439694
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 38,
+          "avg_power": 349,
+          "max_power": 406,
+          "avg_hr": 158,
+          "max_hr": 160,
+          "avg_cadence": 91.6579,
+          "zone": 4,
+          "training_load": 0.8174222,
+          "decoupling": -12.175345
+        },
+        {
+          "type": "WORK",
+          "label": "205s@318w91rpm",
+          "duration_secs": 205,
+          "avg_power": 318,
+          "max_power": 367,
+          "avg_hr": 155,
+          "max_hr": 160,
+          "avg_cadence": 91.35122,
+          "zone": 3,
+          "training_load": 4.198562,
+          "decoupling": -7.3976703
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1307,
+          "avg_power": 309,
+          "max_power": 372,
+          "avg_hr": 154,
+          "max_hr": 167,
+          "avg_cadence": 91.91125,
+          "zone": 3,
+          "training_load": 24.970736,
+          "decoupling": 1.8702546
+        },
+        {
+          "type": "WORK",
+          "label": "179s@304w92rpm",
+          "duration_secs": 179,
+          "avg_power": 304,
+          "max_power": 330,
+          "avg_hr": 154,
+          "max_hr": 158,
+          "avg_cadence": 92.41341,
+          "zone": 3,
+          "training_load": 3.2676473,
+          "decoupling": 5.282577
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 988,
+          "avg_power": 285,
+          "max_power": 377,
+          "avg_hr": 148,
+          "max_hr": 162,
+          "avg_cadence": 90.822876,
+          "zone": 3,
+          "training_load": 16.526386,
+          "decoupling": 7.991422
         }
       ]
     }
