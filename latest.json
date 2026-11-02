@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-02T00:28:00.615468",
+    "last_updated": "2026-11-02T06:42:39.550812",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -87,15 +87,6 @@
       "context": "ACWR 0.72 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
-    },
-    {
-      "metric": "tid_distribution",
-      "value": "Base",
-      "severity": "warning",
-      "threshold": "7d/28d classification mismatch",
-      "context": "TID shift: 7d Base vs 28d Pyramidal. Training distribution changing.",
-      "persistence_days": null,
-      "tier": 3
     }
   ],
   "readiness_decision": {
@@ -257,7 +248,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 302,
+      "steps": 1388,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -291,64 +282,64 @@
     "tss_7d_total": 227.0,
     "tss_28d_total": 1255.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.66,
-      "z2_hours": 2.26,
-      "z3_hours": 0.57,
-      "z4_plus_hours": 0.01,
+      "z1_hours": 0.86,
+      "z2_hours": 1.39,
+      "z3_hours": 1.49,
+      "z4_plus_hours": 0.77,
       "total_hours": 4.51,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 12.6,
+    "grey_zone_percentage": 33.0,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 0.3,
+    "quality_intensity_percentage": 17.0,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.87,
+    "polarisation_index": 0.5,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 0,
+    "hard_days_this_week": 1,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 14132,
-      "z2_seconds": 2045,
-      "z3_seconds": 43,
-      "z1_pct": 87.1,
-      "z2_pct": 12.6,
-      "z3_pct": 0.3,
+      "z1_seconds": 8105,
+      "z2_seconds": 5353,
+      "z3_seconds": 2762,
+      "z1_pct": 50.0,
+      "z2_pct": 33.0,
+      "z3_pct": 17.0,
       "polarization_index": null,
-      "classification": "Base",
+      "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 6316,
-      "z2_seconds": 2031,
-      "z3_seconds": 43,
-      "z1_pct": 75.3,
-      "z2_pct": 24.2,
-      "z3_pct": 0.5,
+      "z1_seconds": 289,
+      "z2_seconds": 5339,
+      "z3_seconds": 2762,
+      "z1_pct": 3.4,
+      "z2_pct": 63.6,
+      "z3_pct": 32.9,
       "polarization_index": null,
-      "classification": "Base",
+      "classification": "Threshold",
       "zone_basis": "hr",
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 58839,
-      "z2_seconds": 13184,
-      "z3_seconds": 7153,
-      "z1_pct": 74.3,
-      "z2_pct": 16.7,
-      "z3_pct": 9.0,
+      "z1_seconds": 43551,
+      "z2_seconds": 22443,
+      "z3_seconds": 13182,
+      "z1_pct": 55.0,
+      "z2_pct": 28.3,
+      "z3_pct": 16.6,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 20911,
-      "z2_seconds": 4975,
-      "z3_seconds": 1048,
-      "z1_pct": 77.6,
-      "z2_pct": 18.5,
-      "z3_pct": 3.9,
+      "z1_seconds": 5623,
+      "z2_seconds": 14234,
+      "z3_seconds": 7077,
+      "z1_pct": 20.9,
+      "z2_pct": 52.8,
+      "z3_pct": 26.3,
       "polarization_index": null,
-      "classification": "Pyramidal",
+      "classification": "Threshold",
       "zone_basis": "hr",
       "sport": "run"
     },
@@ -380,12 +371,12 @@
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
-        "classification_7d": "Base",
+        "classification_7d": "Pyramidal",
         "classification_28d": "Pyramidal",
         "pi_7d": null,
         "pi_28d": null,
         "pi_delta": null,
-        "drift": "shifting",
+        "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
@@ -455,7 +446,7 @@
     "p_max": 893,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-02T00:28:00.614139",
+    "calculation_timestamp": "2026-11-02T06:42:39.549966",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -503,13 +494,11 @@
       "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 749,
-          "z2_time": 2694,
-          "z3_time": 1910,
-          "z4_time": 43,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
+          "z1_time": 2,
+          "z2_time": 109,
+          "z3_time": 2678,
+          "z4_time": 2607,
+          "z5_time": 0
         },
         "power_zones": {
           "z1_time": 7,
@@ -558,13 +547,11 @@
       "rpe": 2,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 2237,
-          "z2_time": 636,
-          "z3_time": 121,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
+          "z1_time": 92,
+          "z2_time": 86,
+          "z3_time": 2661,
+          "z4_time": 155,
+          "z5_time": 0
         },
         "power_zones": {
           "z1_time": 27,
@@ -943,7 +930,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 302,
+      "steps": 1388,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
