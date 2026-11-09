@@ -73,7 +73,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-09T00:06:40.019533",
+    "last_updated": "2026-11-09T06:39:10.382791",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -243,7 +243,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 210,
+      "steps": 4274,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -403,10 +403,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.47,
+          "planned_tss_delta": 0.2,
           "hard_sessions_planned": 6,
           "race_proximity": 27,
-          "next_week_load": 0.24,
+          "next_week_load": 0.2,
           "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 1.0
         },
@@ -441,7 +441,7 @@
     "p_max": 890,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-09T00:06:40.018561",
+    "calculation_timestamp": "2026-11-09T06:39:10.382053",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -986,7 +986,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 210,
+      "steps": 4274,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1035,16 +1035,16 @@
       "description": "Warmup\n- 3m 58-62% pace\n- 7m 70-74% pace\n\nMain Set\n- Settle In 16m 71-75% pace\n- Aerobic 16m 73-90% pace\n- Cruise 16m 73-90% pace\n\nCooldown\n- 4m 69-73% pace\n- 3m 58-62% pace\n\n[Athlete requested \u00b7 type:endurance]"
     },
     {
-      "id": 151816675,
+      "id": 153547644,
       "date": "2026-11-13",
-      "name": "IntervalCoach - \u8010\u529b\u51b2\u523a",
+      "name": "IntervalCoach - \u8010\u529b\u9ad8\u8f6c\u901f",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 88,
-      "duration_hours": 1.83,
-      "duration_formatted": "1h50m",
-      "workout_summary": "15m @146W | 6\u00d712m @170W / 10s rec | 12m @170W | 10m @134W",
-      "description": "Warmup\n- 15m ramp 45-75% 85rpm\n\nMain Set\n6x\n- Endurance 88rpm 12m 65-75% 88rpm\n- Sprint 110rpm 10s 150% 110rpm\n\nRecovery\n- Endurance 88rpm 12m 65-75% 88rpm\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Peak \u00b7 type:enduranceWithSprints]"
+      "planned_tss": 38,
+      "duration_hours": 1.03,
+      "duration_formatted": "1h2m",
+      "workout_summary": "10m @134W | 4\u00d78m @146W / 1m rec | 10m @146W | 6m @134W",
+      "description": "Warmup\n- 600s ramp 45-65% 86rpm\n\nMain Set\n4x\n- Endurance 90rpm 480s 55-65% 90rpm\n- Spin-Up 110rpm 60s 75% 110rpm\n\nRecovery\n- Endurance 90rpm 10m 55-65% 90rpm\n\nCooldown\n- 360s ramp 65-45% 90rpm\n\n[Weekly Plan - Peak \u00b7 type:enduranceSpinUps]"
     },
     {
       "id": 148389215,
@@ -1107,15 +1107,15 @@
       "description_preview": "Warmup\n- 103s ramp 58-62% pace\n- 103s ramp 69-73% pace"
     },
     {
-      "id": 153013548,
+      "id": 153546483,
       "date": "2026-11-21",
-      "name": "IntervalCoach - \u8010\u529b\u77ed\u52a0\u901f",
+      "name": "IntervalCoach - \u8010\u529b\u9ad8\u8f6c\u901f",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 0.95,
-      "duration_formatted": "57m",
-      "workout_summary": "9m @146W | 4\u00d77m @170W / 1m30s rec | 8m @170W | 6m @134W"
+      "planned_tss": 38,
+      "duration_hours": 1.03,
+      "duration_formatted": "1h2m",
+      "workout_summary": "10m @134W | 4\u00d78m @146W / 1m rec | 10m @146W | 6m @134W"
     },
     {
       "id": 146376765,
@@ -1154,7 +1154,7 @@
     },
     {
       "id": 153013592,
-      "date": "2026-11-27",
+      "date": "2026-11-26",
       "name": "IntervalCoach - 5x6 \u8010\u529b\u77ed\u51b2",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -1164,19 +1164,8 @@
       "workout_summary": "2 \u00d7 2m | 3m | 4\u00d76m / 10s rec | 6m | 3m | 2m"
     },
     {
-      "id": 153013648,
-      "date": "2026-11-28",
-      "name": "IntervalCoach - \u8010\u529b\u9ad8\u8f6c\u901f",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 47,
-      "duration_hours": 1.01,
-      "duration_formatted": "1h28s",
-      "workout_summary": "9m34s @146W | 4\u00d77m50s @170W / 52s rec | 10m @170W | 6m6s @134W"
-    },
-    {
       "id": 146376777,
-      "date": "2026-11-29",
+      "date": "2026-11-27",
       "name": "IntervalCoach - \u8d5b\u524d\u51cf\u91cf\u8f7b\u677e\u957f\u8dd1",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -1185,6 +1174,17 @@
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "description_preview": "Warmup\n- ShanksChen\uff0c\u51c6\u5907\u597d\u5f00\u542f\u8010\u529b\u8dd1\u4e86\u5417\uff1f 4m 63-67% pace\n- 7m 75-79% pace"
+    },
+    {
+      "id": 153013648,
+      "date": "2026-11-28",
+      "name": "IntervalCoach - \u8010\u529b\u9ad8\u8f6c\u901f",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 1.03,
+      "duration_formatted": "1h2m",
+      "workout_summary": "10m @134W | 4\u00d78m @146W / 1m rec | 10m @146W | 6m @134W"
     },
     {
       "id": 151509460,
