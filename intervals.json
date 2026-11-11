@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:06:28.346971",
+  "generated_at": "2026-11-11T17:11:20.380655",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1133,6 +1133,73 @@
           "zone": 1,
           "training_load": 4.259501,
           "decoupling": 25.168316
+        }
+      ]
+    },
+    {
+      "activity_id": "i208724497",
+      "date": "2026-11-11",
+      "type": "Swim",
+      "name": "IntervalCoach - \u6e10\u8fdb\u6709\u6c27",
+      "interval_summary": [
+        "1x 300m 90bpm",
+        "1x 150m 110bpm",
+        "1x 249m 115bpm",
+        "1x 400m 118bpm",
+        "1x 200m 113bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "342s@90bpm19rpm",
+          "duration_secs": 342,
+          "avg_hr": 90,
+          "max_hr": 114,
+          "avg_cadence": 18.599415,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "334s@110bpm14rpm",
+          "duration_secs": 334,
+          "avg_hr": 110,
+          "max_hr": 125,
+          "avg_cadence": 13.92515,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1040s@115bpm7rpm",
+          "duration_secs": 1040,
+          "avg_hr": 115,
+          "max_hr": 139,
+          "avg_cadence": 6.751923,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "723s@118bpm8rpm",
+          "duration_secs": 723,
+          "avg_hr": 118,
+          "max_hr": 154,
+          "avg_cadence": 8.035961,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "911s@113bpm5rpm",
+          "duration_secs": 911,
+          "avg_hr": 113,
+          "max_hr": 136,
+          "avg_cadence": 4.6542263,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 16,
+          "avg_hr": 127,
+          "max_hr": 130,
+          "zone": 1
         }
       ]
     }
