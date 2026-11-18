@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T08:21:42.864390",
+  "generated_at": "2026-11-18T17:28:23.308730",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -496,6 +496,136 @@
           "zone": 2,
           "training_load": 25.205132,
           "decoupling": 2.599579
+        }
+      ]
+    },
+    {
+      "activity_id": "i211653470",
+      "date": "2026-11-18",
+      "type": "Swim",
+      "name": "IntervalCoach - Sweet Spot\u7a33\u6001",
+      "interval_summary": [
+        "1x 200m 90bpm",
+        "2x 50m 115bpm",
+        "1x 50m 101bpm",
+        "3x 700m 124bpm",
+        "1x 198m 137bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "362s@90bpm20rpm",
+          "duration_secs": 362,
+          "avg_hr": 90,
+          "max_hr": 121,
+          "avg_cadence": 19.906076,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "77s@115bpm18rpm",
+          "duration_secs": 79,
+          "avg_hr": 113,
+          "max_hr": 135,
+          "avg_cadence": 16.784811,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 36,
+          "avg_hr": 121,
+          "max_hr": 127,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "77s@115bpm18rpm",
+          "duration_secs": 74,
+          "avg_hr": 117,
+          "max_hr": 128,
+          "avg_cadence": 18.743244,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 180,
+          "avg_hr": 108,
+          "max_hr": 127,
+          "avg_cadence": 7.4944444,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "70s@101bpm20rpm",
+          "duration_secs": 70,
+          "avg_hr": 101,
+          "max_hr": 108,
+          "avg_cadence": 19.714285,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 95,
+          "avg_hr": 98,
+          "max_hr": 130,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "756s@124bpm21rpm",
+          "duration_secs": 770,
+          "avg_hr": 119,
+          "max_hr": 144,
+          "avg_cadence": 21.737663,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 20,
+          "avg_hr": 124,
+          "max_hr": 134,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "756s@124bpm21rpm",
+          "duration_secs": 732,
+          "avg_hr": 128,
+          "max_hr": 141,
+          "avg_cadence": 21.75,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 22,
+          "avg_hr": 122,
+          "max_hr": 131,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "756s@124bpm21rpm",
+          "duration_secs": 765,
+          "avg_hr": 124,
+          "max_hr": 152,
+          "avg_cadence": 20.34379,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "193s@137bpm20rpm",
+          "duration_secs": 193,
+          "avg_hr": 137,
+          "max_hr": 152,
+          "avg_cadence": 20.450777,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11,
+          "avg_hr": 133,
+          "max_hr": 141,
+          "zone": 1
         }
       ]
     }
